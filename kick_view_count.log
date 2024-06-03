@@ -1,0 +1,2299 @@
+2024-05-30 00:05:47,151 - INFO - Live View Count: 3
+2024-05-30 00:05:52,173 - INFO - Live View Count: 3
+2024-05-30 00:05:57,370 - INFO - Live View Count: 3
+2024-05-30 00:06:02,293 - INFO - Live View Count: 3
+2024-05-30 00:06:07,122 - INFO - Live View Count: 3
+2024-05-30 00:06:12,096 - INFO - Live View Count: 3
+2024-05-30 00:06:17,098 - INFO - Live View Count: 3
+2024-05-30 00:11:34,709 - ERROR - Error: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-05-30 00:11:53,226 - INFO - Live View Count: 1
+2024-05-30 00:12:43,384 - INFO - Live View Count: 1
+2024-05-30 00:12:48,402 - INFO - Live View Count: 1
+2024-05-30 00:12:53,359 - INFO - Live View Count: 1
+2024-05-30 00:13:01,629 - ERROR - Error: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-05-30 00:13:19,135 - INFO - Live View Count: 1
+2024-05-30 00:13:24,287 - INFO - Live View Count: 1
+2024-05-30 00:13:29,001 - INFO - Live View Count: 1
+2024-05-30 00:13:35,827 - ERROR - Error: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1485:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-05-30 00:17:20,098 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:17:24,151 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:17:28,203 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:17:32,259 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:17:36,312 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:17:47,783 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:17:51,832 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:17:57,695 - CRITICAL - Error: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1485:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-05-30 00:18:01,788 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C22EFD3460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ccb67cc-64c5-4f9f-9ea7-504d006a510c
+2024-05-30 00:18:05,881 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C22EFD3730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ccb67cc-64c5-4f9f-9ea7-504d006a510c
+2024-05-30 00:18:09,972 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C22EFD3790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ccb67cc-64c5-4f9f-9ea7-504d006a510c
+2024-05-30 00:19:50,439 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:19:56,226 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:20:02,391 - WARNING - Timeout: View count element not found within 2 seconds
+2024-05-30 00:20:08,725 - CRITICAL - Error: Message: Failed to decode response from marionette
+
+2024-05-30 00:20:12,806 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D496CD3340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/119a9dac-9a97-493c-bb49-498d866c0701
+2024-05-30 00:20:16,915 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D496CD3790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/119a9dac-9a97-493c-bb49-498d866c0701
+2024-05-30 00:20:20,988 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D496CD37F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/119a9dac-9a97-493c-bb49-498d866c0701
+2024-05-30 00:21:19,743 - INFO - Live View Count: 5
+2024-05-30 00:21:20,764 - INFO - Live View Count: 5
+2024-05-30 00:21:21,782 - INFO - Live View Count: 5
+2024-05-30 00:21:22,808 - INFO - Live View Count: 5
+2024-05-30 00:21:23,831 - INFO - Live View Count: 5
+2024-05-30 00:21:35,962 - INFO - Live View Count: 5
+2024-05-30 00:21:36,990 - INFO - Live View Count: 5
+2024-05-30 00:21:38,013 - INFO - Live View Count: 5
+2024-05-30 00:21:39,041 - INFO - Live View Count: 5
+2024-05-30 00:21:40,067 - INFO - Live View Count: 5
+2024-05-30 00:21:52,065 - INFO - Live View Count: 5
+2024-05-30 00:21:55,249 - ERROR - Error retrieving view count: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-05-30 00:21:56,264 - ERROR - Error retrieving view count: Message: Failed to decode response from marionette
+
+2024-05-30 00:21:57,275 - ERROR - Error retrieving view count: Message: Tried to run command without establishing a connection
+
+2024-05-30 00:21:58,289 - ERROR - Error retrieving view count: Message: Tried to run command without establishing a connection
+
+2024-05-30 00:22:09,355 - ERROR - Error: Message: Tried to run command without establishing a connection
+
+2024-05-30 00:22:45,309 - INFO - Live View Count: 3
+2024-05-30 00:22:46,339 - INFO - Live View Count: 3
+2024-05-30 00:22:47,363 - INFO - Live View Count: 3
+2024-05-30 00:22:48,380 - INFO - Live View Count: 3
+2024-05-30 00:22:49,405 - INFO - Live View Count: 3
+2024-05-30 00:23:01,181 - INFO - Live View Count: 3
+2024-05-30 00:23:02,208 - INFO - Live View Count: 3
+2024-05-30 00:23:03,235 - INFO - Live View Count: 3
+2024-05-30 00:23:04,260 - INFO - Live View Count: 3
+2024-05-30 00:23:05,285 - INFO - Live View Count: 3
+2024-05-30 00:23:16,912 - INFO - Live View Count: 3
+2024-05-30 00:23:17,930 - INFO - Live View Count: 3
+2024-05-30 00:23:18,942 - INFO - Live View Count: 3
+2024-05-30 00:23:19,961 - INFO - Live View Count: 3
+2024-05-30 00:23:20,981 - INFO - Live View Count: 3
+2024-05-30 00:23:32,601 - INFO - Live View Count: 2
+2024-05-30 00:23:33,620 - INFO - Live View Count: 2
+2024-05-30 00:23:34,632 - INFO - Live View Count: 2
+2024-05-30 00:23:35,645 - INFO - Live View Count: 2
+2024-05-30 00:23:36,659 - INFO - Live View Count: 2
+2024-05-30 00:23:48,443 - INFO - Live View Count: 5
+2024-05-30 00:23:49,458 - INFO - Live View Count: 5
+2024-05-30 00:23:50,469 - INFO - Live View Count: 5
+2024-05-30 00:23:51,481 - INFO - Live View Count: 5
+2024-05-30 00:23:52,508 - INFO - Live View Count: 5
+2024-05-30 00:24:03,904 - INFO - Live View Count: 5
+2024-05-30 00:24:04,933 - INFO - Live View Count: 5
+2024-05-30 00:24:05,952 - INFO - Live View Count: 5
+2024-05-30 00:24:06,963 - INFO - Live View Count: 5
+2024-05-30 00:24:07,990 - INFO - Live View Count: 5
+2024-05-30 00:24:19,305 - INFO - Live View Count: 5
+2024-05-30 00:24:20,329 - INFO - Live View Count: 5
+2024-05-30 00:24:21,351 - INFO - Live View Count: 5
+2024-05-30 00:24:22,369 - INFO - Live View Count: 5
+2024-05-30 00:24:23,381 - INFO - Live View Count: 5
+2024-05-30 00:24:35,106 - INFO - Live View Count: 5
+2024-05-30 00:24:36,129 - INFO - Live View Count: 5
+2024-05-30 00:24:37,152 - INFO - Live View Count: 5
+2024-05-30 00:24:38,179 - INFO - Live View Count: 5
+2024-05-30 00:24:39,194 - INFO - Live View Count: 5
+2024-05-30 00:24:51,059 - INFO - Live View Count: 6
+2024-05-30 00:24:52,084 - INFO - Live View Count: 6
+2024-05-30 00:24:53,107 - INFO - Live View Count: 6
+2024-05-30 00:24:54,123 - INFO - Live View Count: 6
+2024-05-30 00:24:55,136 - INFO - Live View Count: 6
+2024-05-30 00:25:06,502 - INFO - Live View Count: 6
+2024-05-30 00:25:07,555 - INFO - Live View Count: 6
+2024-05-30 00:25:08,582 - INFO - Live View Count: 6
+2024-05-30 00:25:09,613 - INFO - Live View Count: 6
+2024-05-30 00:25:10,634 - INFO - Live View Count: 6
+2024-05-30 00:25:22,190 - INFO - Live View Count: 5
+2024-05-30 00:25:23,218 - INFO - Live View Count: 5
+2024-05-30 00:25:24,241 - INFO - Live View Count: 5
+2024-05-30 00:25:25,252 - INFO - Live View Count: 5
+2024-05-30 00:25:26,281 - INFO - Live View Count: 5
+2024-05-30 00:25:38,049 - INFO - Live View Count: 5
+2024-05-30 00:25:39,075 - INFO - Live View Count: 5
+2024-05-30 00:25:40,089 - INFO - Live View Count: 5
+2024-05-30 00:25:41,105 - INFO - Live View Count: 5
+2024-05-30 00:25:42,121 - INFO - Live View Count: 5
+2024-05-30 00:25:53,787 - INFO - Live View Count: 5
+2024-05-30 00:25:54,807 - INFO - Live View Count: 5
+2024-05-30 00:25:55,822 - INFO - Live View Count: 5
+2024-05-30 00:25:56,836 - INFO - Live View Count: 5
+2024-05-30 00:25:57,859 - INFO - Live View Count: 5
+2024-05-30 00:26:09,160 - INFO - Live View Count: 5
+2024-05-30 00:26:10,180 - INFO - Live View Count: 5
+2024-05-30 00:26:11,205 - INFO - Live View Count: 5
+2024-05-30 00:26:12,231 - INFO - Live View Count: 5
+2024-05-30 00:26:13,254 - INFO - Live View Count: 5
+2024-05-30 00:26:25,135 - INFO - Live View Count: 5
+2024-05-30 00:26:26,174 - INFO - Live View Count: 5
+2024-05-30 00:26:27,191 - INFO - Live View Count: 5
+2024-05-30 00:26:28,206 - INFO - Live View Count: 5
+2024-05-30 00:26:29,231 - INFO - Live View Count: 5
+2024-05-30 00:26:40,825 - INFO - Live View Count: 2
+2024-05-30 00:26:41,843 - INFO - Live View Count: 2
+2024-05-30 00:26:42,872 - INFO - Live View Count: 2
+2024-05-30 00:26:43,897 - INFO - Live View Count: 2
+2024-05-30 00:26:44,923 - INFO - Live View Count: 2
+2024-05-30 00:26:56,423 - INFO - Live View Count: 2
+2024-05-30 00:26:57,532 - INFO - Live View Count: 2
+2024-05-30 00:26:58,552 - INFO - Live View Count: 2
+2024-05-30 00:26:59,632 - ERROR - Error retrieving view count: Message: Failed to decode response from marionette
+
+2024-05-30 00:27:00,645 - ERROR - Error retrieving view count: Message: Tried to run command without establishing a connection
+
+2024-05-30 00:27:11,703 - ERROR - Error: Message: Tried to run command without establishing a connection
+
+2024-05-30 00:31:07,099 - INFO - Live View Count: 2
+2024-05-30 00:31:08,119 - INFO - Live View Count: 2
+2024-05-30 00:31:09,137 - INFO - Live View Count: 2
+2024-05-30 00:31:10,161 - INFO - Live View Count: 2
+2024-05-30 00:31:11,176 - INFO - Live View Count: 2
+2024-05-30 00:31:22,780 - INFO - Live View Count: 2
+2024-05-30 00:31:23,803 - INFO - Live View Count: 2
+2024-05-30 00:31:24,819 - INFO - Live View Count: 2
+2024-05-30 00:31:25,838 - INFO - Live View Count: 2
+2024-05-30 00:31:26,852 - INFO - Live View Count: 2
+2024-05-30 00:31:38,705 - INFO - Live View Count: 2
+2024-05-30 00:31:39,724 - INFO - Live View Count: 2
+2024-05-30 00:31:40,742 - INFO - Live View Count: 2
+2024-05-30 00:31:41,756 - INFO - Live View Count: 2
+2024-05-30 00:31:42,777 - INFO - Live View Count: 2
+2024-05-30 00:31:53,917 - INFO - Live View Count: 1
+2024-05-30 00:31:54,931 - INFO - Live View Count: 1
+2024-05-30 00:31:55,958 - INFO - Live View Count: 1
+2024-05-30 00:31:56,983 - INFO - Live View Count: 1
+2024-05-30 00:31:58,000 - INFO - Live View Count: 1
+2024-05-30 00:32:09,664 - INFO - Live View Count: 1
+2024-05-30 00:32:10,682 - INFO - Live View Count: 1
+2024-05-30 00:32:11,707 - INFO - Live View Count: 1
+2024-05-30 00:32:12,723 - INFO - Live View Count: 1
+2024-05-30 00:32:13,757 - INFO - Live View Count: 1
+2024-05-30 00:32:25,518 - INFO - Live View Count: 1
+2024-05-30 00:32:26,539 - INFO - Live View Count: 1
+2024-05-30 00:32:27,569 - INFO - Live View Count: 1
+2024-05-30 00:32:28,589 - INFO - Live View Count: 1
+2024-05-30 00:32:29,605 - INFO - Live View Count: 1
+2024-05-30 00:32:40,984 - INFO - Live View Count: 1
+2024-05-30 00:32:42,011 - INFO - Live View Count: 1
+2024-05-30 00:32:43,025 - INFO - Live View Count: 1
+2024-05-30 00:32:44,037 - INFO - Live View Count: 1
+2024-05-30 00:32:45,060 - INFO - Live View Count: 1
+2024-05-30 00:32:56,338 - INFO - Live View Count: 1
+2024-05-30 00:32:57,356 - INFO - Live View Count: 1
+2024-05-30 00:32:58,370 - INFO - Live View Count: 1
+2024-05-30 00:32:59,391 - INFO - Live View Count: 1
+2024-05-30 00:33:00,415 - INFO - Live View Count: 1
+2024-05-30 00:33:11,908 - INFO - Live View Count: 1
+2024-05-30 00:33:12,931 - INFO - Live View Count: 1
+2024-05-30 00:33:13,945 - INFO - Live View Count: 1
+2024-05-30 00:33:14,970 - INFO - Live View Count: 1
+2024-05-30 00:33:15,989 - INFO - Live View Count: 1
+2024-05-30 00:33:27,874 - INFO - Live View Count: 1
+2024-05-30 00:33:28,909 - INFO - Live View Count: 1
+2024-05-30 00:33:29,938 - INFO - Live View Count: 1
+2024-05-30 00:33:30,964 - INFO - Live View Count: 1
+2024-05-30 00:33:31,994 - INFO - Live View Count: 1
+2024-05-30 00:33:43,531 - INFO - Live View Count: 2
+2024-05-30 00:33:44,545 - INFO - Live View Count: 2
+2024-05-30 00:33:45,569 - INFO - Live View Count: 2
+2024-05-30 00:33:46,586 - INFO - Live View Count: 2
+2024-05-30 00:33:47,612 - INFO - Live View Count: 2
+2024-05-30 00:33:59,078 - INFO - Live View Count: 2
+2024-05-30 00:34:00,096 - INFO - Live View Count: 2
+2024-05-30 00:34:01,111 - INFO - Live View Count: 2
+2024-05-30 00:34:02,127 - INFO - Live View Count: 2
+2024-05-30 00:34:03,149 - INFO - Live View Count: 2
+2024-05-30 00:34:14,285 - INFO - Live View Count: 2
+2024-05-30 00:34:15,305 - INFO - Live View Count: 2
+2024-05-30 00:34:16,328 - INFO - Live View Count: 2
+2024-05-30 00:34:17,351 - INFO - Live View Count: 2
+2024-05-30 00:34:18,364 - INFO - Live View Count: 2
+2024-05-30 00:34:29,883 - INFO - Live View Count: 2
+2024-05-30 00:34:30,900 - INFO - Live View Count: 2
+2024-05-30 00:34:31,928 - INFO - Live View Count: 2
+2024-05-30 00:34:32,954 - INFO - Live View Count: 2
+2024-05-30 00:34:33,980 - INFO - Live View Count: 2
+2024-05-30 00:34:45,504 - INFO - Live View Count: 1
+2024-05-30 00:34:46,521 - INFO - Live View Count: 1
+2024-05-30 00:34:47,545 - INFO - Live View Count: 1
+2024-05-30 00:34:48,557 - INFO - Live View Count: 1
+2024-05-30 00:34:49,578 - INFO - Live View Count: 1
+2024-05-30 00:35:00,888 - INFO - Live View Count: 1
+2024-05-30 00:35:01,919 - INFO - Live View Count: 1
+2024-05-30 00:35:02,934 - INFO - Live View Count: 1
+2024-05-30 00:35:03,946 - INFO - Live View Count: 1
+2024-05-30 00:35:04,963 - INFO - Live View Count: 1
+2024-05-30 00:35:16,322 - INFO - Live View Count: 1
+2024-05-30 00:35:17,345 - INFO - Live View Count: 1
+2024-05-30 00:35:18,368 - INFO - Live View Count: 1
+2024-05-30 00:35:19,382 - INFO - Live View Count: 1
+2024-05-30 00:35:20,397 - INFO - Live View Count: 1
+2024-05-30 00:35:31,446 - INFO - Live View Count: 1
+2024-05-30 00:35:32,472 - INFO - Live View Count: 1
+2024-05-30 00:35:33,501 - INFO - Live View Count: 1
+2024-05-30 00:35:34,515 - INFO - Live View Count: 1
+2024-05-30 00:35:35,541 - INFO - Live View Count: 1
+2024-05-30 00:35:47,396 - INFO - Live View Count: 5
+2024-05-30 00:35:48,419 - INFO - Live View Count: 5
+2024-05-30 00:35:49,435 - INFO - Live View Count: 5
+2024-05-30 00:35:50,464 - INFO - Live View Count: 5
+2024-05-30 00:35:51,511 - INFO - Live View Count: 5
+2024-05-30 00:36:02,992 - INFO - Live View Count: 5
+2024-05-30 00:36:04,004 - INFO - Live View Count: 5
+2024-05-30 00:36:05,022 - INFO - Live View Count: 5
+2024-05-30 00:36:06,036 - INFO - Live View Count: 5
+2024-05-30 00:36:07,057 - INFO - Live View Count: 5
+2024-05-30 00:36:18,694 - INFO - Live View Count: 5
+2024-05-30 00:36:19,712 - INFO - Live View Count: 5
+2024-05-30 00:36:20,729 - INFO - Live View Count: 5
+2024-05-30 00:36:21,753 - INFO - Live View Count: 5
+2024-05-30 00:36:22,775 - INFO - Live View Count: 5
+2024-05-30 00:36:34,374 - INFO - Live View Count: 5
+2024-05-30 00:36:35,388 - INFO - Live View Count: 5
+2024-05-30 00:36:36,414 - INFO - Live View Count: 5
+2024-05-30 00:36:37,429 - INFO - Live View Count: 5
+2024-05-30 00:36:38,463 - INFO - Live View Count: 5
+2024-05-30 00:36:49,707 - INFO - Live View Count: 4
+2024-05-30 00:36:50,739 - INFO - Live View Count: 4
+2024-05-30 00:36:51,760 - INFO - Live View Count: 4
+2024-05-30 00:36:52,786 - INFO - Live View Count: 4
+2024-05-30 00:36:53,803 - INFO - Live View Count: 4
+2024-05-30 00:37:05,472 - INFO - Live View Count: 4
+2024-05-30 00:37:06,483 - INFO - Live View Count: 4
+2024-05-30 00:37:07,507 - INFO - Live View Count: 4
+2024-05-30 00:37:08,534 - INFO - Live View Count: 4
+2024-05-30 00:37:09,558 - INFO - Live View Count: 4
+2024-05-30 00:37:20,933 - INFO - Live View Count: 4
+2024-05-30 00:37:21,955 - INFO - Live View Count: 4
+2024-05-30 00:37:22,967 - INFO - Live View Count: 4
+2024-05-30 00:37:23,991 - INFO - Live View Count: 4
+2024-05-30 00:37:25,011 - INFO - Live View Count: 4
+2024-05-30 00:37:36,395 - INFO - Live View Count: 5
+2024-05-30 00:37:37,418 - INFO - Live View Count: 5
+2024-05-30 00:37:38,443 - INFO - Live View Count: 5
+2024-05-30 00:37:39,458 - INFO - Live View Count: 5
+2024-05-30 00:37:40,482 - INFO - Live View Count: 5
+2024-05-30 00:37:52,239 - INFO - Live View Count: 5
+2024-05-30 00:37:53,258 - INFO - Live View Count: 5
+2024-05-30 00:37:54,278 - INFO - Live View Count: 5
+2024-05-30 00:37:55,304 - INFO - Live View Count: 5
+2024-05-30 00:37:56,330 - INFO - Live View Count: 5
+2024-05-30 00:38:07,548 - INFO - Live View Count: 5
+2024-05-30 00:38:08,560 - INFO - Live View Count: 5
+2024-05-30 00:38:09,576 - INFO - Live View Count: 5
+2024-05-30 00:38:10,592 - INFO - Live View Count: 5
+2024-05-30 00:38:11,610 - INFO - Live View Count: 5
+2024-05-30 00:38:22,753 - ERROR - Error: Message: Failed to decode response from marionette
+
+2024-05-30 01:04:01,664 - INFO - IP Address: 135.19.91.157
+2024-05-30 01:04:04,442 - INFO - Live View Count: 
+2024-05-30 01:04:05,457 - INFO - Live View Count: 
+2024-05-30 01:04:06,469 - INFO - Live View Count: 
+2024-05-30 01:04:07,481 - INFO - Live View Count: 
+2024-05-30 01:04:08,507 - INFO - Live View Count: 
+2024-05-30 01:04:20,555 - INFO - Live View Count: 1
+2024-05-30 01:04:21,582 - INFO - Live View Count: 1
+2024-05-30 01:04:22,608 - INFO - Live View Count: 1
+2024-05-30 01:04:23,640 - INFO - Live View Count: 
+2024-05-30 01:04:24,657 - INFO - Live View Count: 
+2024-05-30 01:04:36,643 - INFO - Live View Count: 
+2024-05-30 01:04:37,664 - INFO - Live View Count: 
+2024-05-30 01:04:38,689 - INFO - Live View Count: 
+2024-05-30 01:04:39,703 - INFO - Live View Count: 
+2024-05-30 01:04:40,717 - INFO - Live View Count: 
+2024-05-30 01:05:40,052 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-05-30 01:06:23,616 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-05-30 01:09:44,150 - CRITICAL - Error: [WinError 2] The system cannot find the file specified
+2024-05-30 01:11:44,645 - INFO - Live View Count: 1
+2024-05-30 01:11:45,667 - INFO - Live View Count: 1
+2024-05-30 01:11:46,686 - INFO - Live View Count: 1
+2024-05-30 01:11:47,705 - INFO - Live View Count: 1
+2024-05-30 01:11:48,725 - INFO - Live View Count: 1
+2024-05-30 01:12:00,470 - INFO - Live View Count: 1
+2024-05-30 01:12:01,503 - INFO - Live View Count: 1
+2024-05-30 01:12:02,522 - INFO - Live View Count: 1
+2024-05-30 01:12:03,543 - INFO - Live View Count: 1
+2024-05-30 01:12:04,557 - INFO - Live View Count: 1
+2024-05-30 01:12:16,389 - INFO - Live View Count: 1
+2024-05-30 01:12:17,414 - INFO - Live View Count: 1
+2024-05-30 01:12:18,442 - INFO - Live View Count: 1
+2024-05-30 01:12:19,468 - INFO - Live View Count: 1
+2024-05-30 01:12:20,492 - INFO - Live View Count: 1
+2024-05-30 01:12:32,080 - INFO - Live View Count: 1
+2024-05-30 01:12:33,099 - INFO - Live View Count: 1
+2024-05-30 01:12:34,124 - INFO - Live View Count: 1
+2024-05-30 01:12:35,145 - INFO - Live View Count: 1
+2024-05-30 01:12:36,170 - INFO - Live View Count: 1
+2024-05-30 01:12:47,527 - INFO - Live View Count: 1
+2024-05-30 01:12:48,551 - INFO - Live View Count: 1
+2024-05-30 01:12:49,571 - INFO - Live View Count: 1
+2024-05-30 01:12:50,584 - INFO - Live View Count: 1
+2024-05-30 01:12:51,598 - INFO - Live View Count: 1
+2024-05-30 01:13:07,126 - INFO - Live View Count: 1
+2024-05-30 01:13:09,148 - INFO - Live View Count: 1
+2024-05-30 01:13:11,171 - INFO - Live View Count: 1
+2024-05-30 01:13:13,194 - INFO - Live View Count: 1
+2024-05-30 01:13:15,219 - INFO - Live View Count: 
+2024-05-30 01:13:17,237 - INFO - Live View Count: 
+2024-05-30 01:13:19,255 - INFO - Live View Count: 
+2024-05-30 01:13:21,270 - INFO - Live View Count: 
+2024-05-30 01:13:23,295 - INFO - Live View Count: 
+2024-05-30 01:13:25,320 - INFO - Live View Count: 
+2024-05-30 01:13:27,330 - INFO - Live View Count: 
+2024-05-30 01:13:29,352 - INFO - Live View Count: 
+2024-05-30 01:13:31,366 - INFO - Live View Count: 
+2024-05-30 01:13:33,389 - INFO - Live View Count: 
+2024-05-30 01:13:35,406 - INFO - Live View Count: 
+2024-05-30 01:13:37,429 - INFO - Live View Count: 
+2024-05-30 01:13:39,456 - INFO - Live View Count: 
+2024-05-30 01:13:41,472 - INFO - Live View Count: 
+2024-05-30 01:13:43,493 - INFO - Live View Count: 
+2024-05-30 01:13:45,509 - INFO - Live View Count: 
+2024-05-30 01:13:47,531 - INFO - Live View Count: 
+2024-05-30 01:13:49,552 - INFO - Live View Count: 
+2024-05-30 01:13:51,567 - INFO - Live View Count: 
+2024-05-30 01:13:53,582 - INFO - Live View Count: 
+2024-05-30 01:13:55,603 - INFO - Live View Count: 
+2024-05-30 01:13:57,619 - INFO - Live View Count: 
+2024-05-30 01:13:59,637 - INFO - Live View Count: 
+2024-05-30 01:14:01,661 - INFO - Live View Count: 
+2024-05-30 01:14:03,675 - INFO - Live View Count: 
+2024-05-30 01:14:05,691 - INFO - Live View Count: 
+2024-05-30 01:14:07,707 - INFO - Live View Count: 
+2024-05-30 01:14:09,725 - INFO - Live View Count: 
+2024-05-30 01:14:11,749 - INFO - Live View Count: 
+2024-05-30 01:14:13,764 - INFO - Live View Count: 
+2024-05-30 01:14:15,789 - INFO - Live View Count: 
+2024-05-30 01:14:17,812 - INFO - Live View Count: 
+2024-05-30 01:14:19,834 - INFO - Live View Count: 
+2024-05-30 01:14:21,849 - INFO - Live View Count: 
+2024-05-30 01:14:23,873 - INFO - Live View Count: 
+2024-05-30 01:14:25,887 - INFO - Live View Count: 
+2024-05-30 01:14:27,914 - INFO - Live View Count: 
+2024-05-30 01:14:29,928 - INFO - Live View Count: 
+2024-05-30 01:14:31,955 - INFO - Live View Count: 
+2024-05-30 01:14:33,970 - INFO - Live View Count: 
+2024-05-30 01:14:35,999 - INFO - Live View Count: 
+2024-05-30 01:14:38,018 - INFO - Live View Count: 
+2024-05-30 01:14:40,050 - INFO - Live View Count: 
+2024-05-30 01:14:42,071 - INFO - Live View Count: 
+2024-05-30 01:14:44,084 - INFO - Live View Count: 
+2024-05-30 01:14:46,109 - INFO - Live View Count: 
+2024-05-30 01:14:56,138 - INFO - Live View Count: 
+2024-05-30 01:14:58,154 - INFO - Live View Count: 
+2024-05-30 01:15:00,182 - INFO - Live View Count: 
+2024-05-30 01:15:02,196 - INFO - Live View Count: 
+2024-05-30 01:15:04,217 - INFO - Live View Count: 
+2024-05-30 01:15:06,233 - INFO - Live View Count: 
+2024-05-30 01:15:08,257 - INFO - Live View Count: 
+2024-05-30 01:15:38,356 - INFO - Live View Count: 
+2024-05-30 01:15:40,386 - INFO - Live View Count: 
+2024-05-30 01:15:42,411 - INFO - Live View Count: 
+2024-05-30 01:15:44,425 - INFO - Live View Count: 
+2024-05-30 01:15:46,449 - INFO - Live View Count: 
+2024-05-30 01:15:48,468 - INFO - Live View Count: 
+2024-05-30 01:15:50,478 - INFO - Live View Count: 
+2024-05-30 01:15:52,502 - INFO - Live View Count: 
+2024-05-30 01:15:54,519 - INFO - Live View Count: 
+2024-05-30 01:15:56,534 - INFO - Live View Count: 
+2024-05-30 01:15:58,550 - INFO - Live View Count: 
+2024-05-30 01:16:00,575 - INFO - Live View Count: 
+2024-05-30 01:16:02,584 - INFO - Live View Count: 
+2024-05-30 01:16:04,609 - INFO - Live View Count: 
+2024-05-30 01:16:06,632 - INFO - Live View Count: 
+2024-05-30 01:16:08,645 - INFO - Live View Count: 
+2024-05-30 01:16:10,667 - INFO - Live View Count: 
+2024-05-30 01:16:12,688 - INFO - Live View Count: 
+2024-05-30 01:16:14,712 - INFO - Live View Count: 
+2024-05-30 01:16:16,728 - INFO - Live View Count: 
+2024-05-30 01:16:18,751 - INFO - Live View Count: 
+2024-05-30 01:16:20,775 - INFO - Live View Count: 
+2024-05-30 01:16:22,790 - INFO - Live View Count: 
+2024-05-30 01:16:24,814 - INFO - Live View Count: 
+2024-05-30 01:16:38,815 - INFO - Live View Count: 
+2024-05-30 01:16:40,868 - INFO - Live View Count: 
+2024-05-30 01:16:42,887 - INFO - Live View Count: 
+2024-05-30 01:16:44,908 - INFO - Live View Count: 
+2024-05-30 01:16:46,930 - INFO - Live View Count: 
+2024-05-30 01:16:48,953 - INFO - Live View Count: 
+2024-05-30 01:16:50,969 - INFO - Live View Count: 
+2024-05-30 01:17:04,245 - INFO - Live View Count: 3
+2024-05-30 01:17:06,265 - INFO - Live View Count: 3
+2024-05-30 01:17:08,288 - INFO - Live View Count: 
+2024-05-30 01:17:10,314 - INFO - Live View Count: 
+2024-05-30 01:17:12,335 - INFO - Live View Count: 
+2024-05-30 01:17:14,350 - INFO - Live View Count: 
+2024-05-30 01:17:16,364 - INFO - Live View Count: 
+2024-05-30 01:17:18,384 - INFO - Live View Count: 
+2024-05-30 01:17:20,407 - INFO - Live View Count: 
+2024-05-30 01:17:22,426 - INFO - Live View Count: 
+2024-05-30 01:17:24,449 - INFO - Live View Count: 
+2024-05-30 01:17:26,464 - INFO - Live View Count: 
+2024-05-30 01:17:28,489 - INFO - Live View Count: 
+2024-05-30 01:17:30,517 - INFO - Live View Count: 
+2024-05-30 01:17:32,548 - INFO - Live View Count: 
+2024-05-30 01:17:34,574 - INFO - Live View Count: 
+2024-05-30 01:17:36,590 - INFO - Live View Count: 
+2024-05-30 01:17:38,602 - INFO - Live View Count: 
+2024-05-30 01:17:40,616 - INFO - Live View Count: 
+2024-05-30 01:17:42,636 - INFO - Live View Count: 
+2024-05-30 01:17:44,651 - INFO - Live View Count: 
+2024-05-30 01:17:46,670 - INFO - Live View Count: 
+2024-05-30 01:17:48,699 - INFO - Live View Count: 
+2024-05-30 01:17:50,717 - INFO - Live View Count: 
+2024-05-30 01:17:52,737 - INFO - Live View Count: 
+2024-05-30 01:17:54,761 - INFO - Live View Count: 
+2024-05-30 01:17:56,781 - INFO - Live View Count: 
+2024-05-30 01:17:58,806 - INFO - Live View Count: 
+2024-05-30 01:18:00,831 - INFO - Live View Count: 
+2024-05-30 01:18:02,856 - INFO - Live View Count: 
+2024-05-30 01:18:16,798 - INFO - Live View Count: 6
+2024-05-30 01:18:17,815 - INFO - Live View Count: 6
+2024-05-30 01:18:18,844 - INFO - Live View Count: 6
+2024-05-30 01:18:19,871 - INFO - Live View Count: 6
+2024-05-30 01:18:20,906 - INFO - Live View Count: 6
+2024-05-30 01:18:21,945 - INFO - Live View Count: 6
+2024-05-30 01:18:22,967 - INFO - Live View Count: 6
+2024-05-30 01:18:23,989 - INFO - Live View Count: 6
+2024-05-30 01:18:25,016 - INFO - Live View Count: 6
+2024-05-30 01:18:26,052 - INFO - Live View Count: 6
+2024-05-30 01:18:27,079 - INFO - Live View Count: 6
+2024-05-30 01:18:28,105 - INFO - Live View Count: 6
+2024-05-30 01:18:29,125 - INFO - Live View Count: 6
+2024-05-30 01:18:30,156 - INFO - Live View Count: 6
+2024-05-30 01:18:31,172 - INFO - Live View Count: 6
+2024-05-30 01:18:32,200 - INFO - Live View Count: 6
+2024-05-30 01:18:33,220 - INFO - Live View Count: 6
+2024-05-30 01:18:34,252 - INFO - Live View Count: 6
+2024-05-30 01:18:35,290 - INFO - Live View Count: 6
+2024-05-30 01:18:36,305 - INFO - Live View Count: 6
+2024-05-30 01:18:37,326 - INFO - Live View Count: 6
+2024-05-30 01:18:38,360 - INFO - Live View Count: 6
+2024-05-30 01:18:39,390 - INFO - Live View Count: 6
+2024-05-30 01:18:40,413 - INFO - Live View Count: 6
+2024-05-30 01:18:41,438 - INFO - Live View Count: 6
+2024-05-30 01:18:42,458 - INFO - Live View Count: 6
+2024-05-30 01:18:43,481 - INFO - Live View Count: 6
+2024-05-30 01:18:44,507 - INFO - Live View Count: 6
+2024-05-30 01:18:45,530 - INFO - Live View Count: 6
+2024-05-30 01:18:46,560 - INFO - Live View Count: 6
+2024-05-30 01:18:47,584 - INFO - Live View Count: 6
+2024-05-30 01:18:48,601 - INFO - Live View Count: 6
+2024-05-30 01:18:49,623 - INFO - Live View Count: 6
+2024-05-30 01:18:50,644 - INFO - Live View Count: 6
+2024-05-30 01:18:51,665 - INFO - Live View Count: 6
+2024-05-30 01:18:52,685 - INFO - Live View Count: 6
+2024-05-30 01:18:53,707 - INFO - Live View Count: 6
+2024-05-30 01:18:54,731 - INFO - Live View Count: 6
+2024-05-30 01:18:55,754 - INFO - Live View Count: 6
+2024-05-30 01:18:56,778 - INFO - Live View Count: 6
+2024-05-30 01:18:57,800 - INFO - Live View Count: 6
+2024-05-30 01:18:58,817 - INFO - Live View Count: 6
+2024-05-30 01:18:59,841 - INFO - Live View Count: 6
+2024-05-30 01:19:00,859 - INFO - Live View Count: 6
+2024-05-30 01:19:01,878 - INFO - Live View Count: 6
+2024-05-30 01:19:02,904 - INFO - Live View Count: 6
+2024-05-30 01:19:03,929 - INFO - Live View Count: 6
+2024-05-30 01:19:04,959 - INFO - Live View Count: 6
+2024-05-30 01:19:17,957 - INFO - Live View Count: 5
+2024-05-30 01:19:18,986 - INFO - Live View Count: 5
+2024-05-30 01:19:20,013 - INFO - Live View Count: 5
+2024-05-30 01:19:21,043 - INFO - Live View Count: 5
+2024-05-30 01:19:22,070 - INFO - Live View Count: 5
+2024-05-30 01:19:23,102 - INFO - Live View Count: 5
+2024-05-30 01:19:24,144 - INFO - Live View Count: 5
+2024-05-30 01:19:25,163 - INFO - Live View Count: 5
+2024-05-30 01:19:26,179 - INFO - Live View Count: 5
+2024-05-30 01:19:27,203 - INFO - Live View Count: 5
+2024-05-30 01:19:28,236 - INFO - Live View Count: 5
+2024-05-30 01:19:29,255 - INFO - Live View Count: 5
+2024-05-30 01:19:30,279 - INFO - Live View Count: 5
+2024-05-30 01:19:31,314 - INFO - Live View Count: 5
+2024-05-30 01:19:32,340 - INFO - Live View Count: 5
+2024-05-30 01:19:33,370 - INFO - Live View Count: 5
+2024-05-30 01:19:34,390 - INFO - Live View Count: 5
+2024-05-30 01:19:35,417 - INFO - Live View Count: 5
+2024-05-30 01:19:36,443 - INFO - Live View Count: 5
+2024-05-30 01:19:37,460 - INFO - Live View Count: 5
+2024-05-30 01:19:38,489 - INFO - Live View Count: 5
+2024-05-30 01:19:39,524 - INFO - Live View Count: 5
+2024-05-30 01:19:40,547 - INFO - Live View Count: 5
+2024-05-30 01:19:41,579 - INFO - Live View Count: 5
+2024-05-30 01:19:42,604 - INFO - Live View Count: 5
+2024-05-30 01:19:43,651 - INFO - Live View Count: 5
+2024-05-30 01:19:44,671 - INFO - Live View Count: 5
+2024-05-30 01:19:45,740 - INFO - Live View Count: 5
+2024-05-30 01:19:46,766 - INFO - Live View Count: 5
+2024-05-30 01:19:47,781 - INFO - Live View Count: 5
+2024-05-30 01:19:48,810 - INFO - Live View Count: 
+2024-05-30 01:19:49,820 - INFO - Live View Count: 
+2024-05-30 01:19:50,847 - INFO - Live View Count: 8
+2024-05-30 01:19:51,874 - INFO - Live View Count: 8
+2024-05-30 01:19:52,897 - INFO - Live View Count: 8
+2024-05-30 01:19:53,915 - INFO - Live View Count: 8
+2024-05-30 01:19:54,937 - INFO - Live View Count: 8
+2024-05-30 01:19:55,962 - INFO - Live View Count: 8
+2024-05-30 01:19:56,986 - INFO - Live View Count: 8
+2024-05-30 01:19:58,012 - INFO - Live View Count: 8
+2024-05-30 01:19:59,031 - INFO - Live View Count: 8
+2024-05-30 01:20:00,051 - INFO - Live View Count: 8
+2024-05-30 01:20:01,082 - INFO - Live View Count: 8
+2024-05-30 01:20:02,108 - INFO - Live View Count: 8
+2024-05-30 01:20:03,132 - INFO - Live View Count: 8
+2024-05-30 01:20:04,152 - INFO - Live View Count: 8
+2024-05-30 01:20:05,200 - INFO - Live View Count: 8
+2024-05-30 01:20:06,232 - INFO - Live View Count: 8
+2024-05-30 01:20:07,252 - INFO - Live View Count: 8
+2024-05-30 01:20:08,275 - INFO - Live View Count: 8
+2024-05-30 01:20:16,607 - INFO - Live View Count: 8
+2024-05-30 01:20:17,623 - INFO - Live View Count: 8
+2024-05-30 01:20:18,645 - INFO - Live View Count: 8
+2024-05-30 01:20:19,673 - INFO - Live View Count: 8
+2024-05-30 01:20:20,702 - INFO - Live View Count: 8
+2024-05-30 01:20:21,724 - INFO - Live View Count: 8
+2024-05-30 01:20:22,748 - INFO - Live View Count: 8
+2024-05-30 01:20:23,772 - INFO - Live View Count: 8
+2024-05-30 01:20:24,795 - INFO - Live View Count: 8
+2024-05-30 01:20:25,829 - INFO - Live View Count: 8
+2024-05-30 01:20:26,851 - INFO - Live View Count: 8
+2024-05-30 01:20:27,870 - INFO - Live View Count: 8
+2024-05-30 01:20:28,893 - INFO - Live View Count: 8
+2024-05-30 01:20:29,917 - INFO - Live View Count: 8
+2024-05-30 01:20:30,936 - INFO - Live View Count: 8
+2024-05-30 01:20:31,968 - INFO - Live View Count: 8
+2024-05-30 01:20:32,986 - INFO - Live View Count: 8
+2024-05-30 01:20:34,010 - INFO - Live View Count: 8
+2024-05-30 01:20:35,038 - INFO - Live View Count: 8
+2024-05-30 01:20:36,063 - INFO - Live View Count: 8
+2024-05-30 01:20:37,085 - INFO - Live View Count: 8
+2024-05-30 01:20:38,102 - INFO - Live View Count: 8
+2024-05-30 01:20:39,119 - INFO - Live View Count: 8
+2024-05-30 01:20:40,141 - INFO - Live View Count: 8
+2024-05-30 01:20:41,167 - INFO - Live View Count: 8
+2024-05-30 01:20:42,184 - INFO - Live View Count: 8
+2024-05-30 01:20:43,216 - INFO - Live View Count: 8
+2024-05-30 01:20:44,238 - INFO - Live View Count: 8
+2024-05-30 01:20:45,266 - INFO - Live View Count: 8
+2024-05-30 01:20:46,287 - INFO - Live View Count: 8
+2024-05-30 01:20:47,309 - INFO - Live View Count: 
+2024-05-30 01:20:48,346 - INFO - Live View Count: 3
+2024-05-30 01:20:49,369 - INFO - Live View Count: 3
+2024-05-30 01:20:50,391 - INFO - Live View Count: 3
+2024-05-30 01:20:51,420 - INFO - Live View Count: 3
+2024-05-30 01:20:52,443 - INFO - Live View Count: 3
+2024-05-30 01:20:53,474 - INFO - Live View Count: 3
+2024-05-30 01:20:54,506 - INFO - Live View Count: 3
+2024-05-30 01:20:55,517 - INFO - Live View Count: 3
+2024-05-30 01:20:56,545 - INFO - Live View Count: 3
+2024-05-30 01:20:57,569 - INFO - Live View Count: 3
+2024-05-30 01:20:58,586 - INFO - Live View Count: 3
+2024-05-30 01:20:59,612 - INFO - Live View Count: 3
+2024-05-30 01:21:00,632 - INFO - Live View Count: 3
+2024-05-30 01:21:01,664 - INFO - Live View Count: 3
+2024-05-30 01:21:02,687 - INFO - Live View Count: 3
+2024-05-30 01:21:03,712 - INFO - Live View Count: 3
+2024-05-30 01:21:04,733 - INFO - Live View Count: 3
+2024-05-30 01:21:05,749 - INFO - Live View Count: 3
+2024-05-30 01:21:06,773 - INFO - Live View Count: 3
+2024-05-30 01:21:24,833 - INFO - Live View Count: 3
+2024-05-30 01:21:25,884 - INFO - Live View Count: 3
+2024-05-30 01:21:26,914 - INFO - Live View Count: 3
+2024-05-30 01:21:27,932 - INFO - Live View Count: 3
+2024-05-30 01:21:28,957 - INFO - Live View Count: 3
+2024-05-30 01:21:29,980 - INFO - Live View Count: 3
+2024-05-30 01:21:31,007 - INFO - Live View Count: 3
+2024-05-30 01:21:32,030 - INFO - Live View Count: 3
+2024-05-30 01:21:33,059 - INFO - Live View Count: 3
+2024-05-30 01:21:34,076 - INFO - Live View Count: 3
+2024-05-30 01:21:35,106 - INFO - Live View Count: 3
+2024-05-30 01:21:36,131 - INFO - Live View Count: 3
+2024-05-30 01:21:37,162 - INFO - Live View Count: 3
+2024-05-30 01:21:38,188 - INFO - Live View Count: 3
+2024-05-30 01:21:39,208 - INFO - Live View Count: 3
+2024-05-30 01:21:40,236 - INFO - Live View Count: 3
+2024-05-30 01:21:41,263 - INFO - Live View Count: 3
+2024-05-30 01:21:42,288 - INFO - Live View Count: 3
+2024-05-30 01:21:43,402 - INFO - Live View Count: 3
+2024-05-30 01:21:44,426 - INFO - Live View Count: 3
+2024-05-30 01:21:45,471 - INFO - Live View Count: 3
+2024-05-30 01:21:46,506 - INFO - Live View Count: 3
+2024-05-30 01:21:47,544 - INFO - Live View Count: 3
+2024-05-30 01:21:48,568 - INFO - Live View Count: 3
+2024-05-30 01:21:49,588 - INFO - Live View Count: 3
+2024-05-30 01:21:50,621 - INFO - Live View Count: 3
+2024-05-30 01:21:51,647 - INFO - Live View Count: 3
+2024-05-30 01:21:52,687 - INFO - Live View Count: 3
+2024-05-30 01:21:53,708 - INFO - Live View Count: 3
+2024-05-30 01:21:54,739 - INFO - Live View Count: 3
+2024-05-30 01:21:55,768 - INFO - Live View Count: 
+2024-05-30 01:21:56,793 - INFO - Live View Count: 
+2024-05-30 01:21:57,820 - INFO - Live View Count: 6
+2024-05-30 01:21:58,856 - INFO - Live View Count: 6
+2024-05-30 01:21:59,880 - INFO - Live View Count: 6
+2024-05-30 01:22:00,900 - INFO - Live View Count: 6
+2024-05-30 01:22:01,925 - INFO - Live View Count: 6
+2024-05-30 01:22:02,957 - INFO - Live View Count: 6
+2024-05-30 01:22:03,982 - INFO - Live View Count: 6
+2024-05-30 01:22:05,007 - INFO - Live View Count: 6
+2024-05-30 01:22:06,040 - INFO - Live View Count: 6
+2024-05-30 01:22:07,063 - INFO - Live View Count: 6
+2024-05-30 01:22:08,093 - INFO - Live View Count: 6
+2024-05-30 01:22:09,119 - INFO - Live View Count: 6
+2024-05-30 01:22:10,143 - INFO - Live View Count: 6
+2024-05-30 01:22:11,165 - INFO - Live View Count: 6
+2024-05-30 01:22:12,192 - INFO - Live View Count: 6
+2024-05-30 01:22:13,215 - INFO - Live View Count: 6
+2024-05-30 01:22:14,238 - INFO - Live View Count: 6
+2024-05-30 01:22:15,272 - INFO - Live View Count: 6
+2024-05-30 01:22:24,795 - INFO - Live View Count: 6
+2024-05-30 01:22:25,819 - INFO - Live View Count: 6
+2024-05-30 01:22:26,839 - INFO - Live View Count: 6
+2024-05-30 01:22:27,878 - INFO - Live View Count: 6
+2024-05-30 01:22:28,912 - INFO - Live View Count: 6
+2024-05-30 01:22:29,939 - INFO - Live View Count: 6
+2024-05-30 01:22:30,965 - INFO - Live View Count: 6
+2024-05-30 01:22:31,989 - INFO - Live View Count: 6
+2024-05-30 01:22:33,021 - INFO - Live View Count: 6
+2024-05-30 01:22:34,040 - INFO - Live View Count: 6
+2024-05-30 01:22:35,069 - INFO - Live View Count: 6
+2024-05-30 01:22:36,101 - INFO - Live View Count: 6
+2024-05-30 01:22:37,133 - INFO - Live View Count: 6
+2024-05-30 01:22:38,157 - INFO - Live View Count: 6
+2024-05-30 01:22:39,182 - INFO - Live View Count: 6
+2024-05-30 01:22:40,205 - INFO - Live View Count: 6
+2024-05-30 01:22:41,227 - INFO - Live View Count: 6
+2024-05-30 01:22:42,254 - INFO - Live View Count: 6
+2024-05-30 01:22:43,283 - INFO - Live View Count: 6
+2024-05-30 01:22:44,313 - INFO - Live View Count: 6
+2024-05-30 01:22:45,343 - INFO - Live View Count: 6
+2024-05-30 01:22:46,377 - INFO - Live View Count: 6
+2024-05-30 01:22:47,394 - INFO - Live View Count: 6
+2024-05-30 01:22:48,420 - INFO - Live View Count: 6
+2024-05-30 01:22:49,445 - INFO - Live View Count: 6
+2024-05-30 01:22:50,477 - INFO - Live View Count: 6
+2024-05-30 01:22:51,495 - INFO - Live View Count: 6
+2024-05-30 01:22:52,514 - INFO - Live View Count: 6
+2024-05-30 01:22:53,536 - INFO - Live View Count: 6
+2024-05-30 01:22:54,564 - INFO - Live View Count: 6
+2024-05-30 01:22:55,586 - INFO - Live View Count: 6
+2024-05-30 01:22:56,610 - INFO - Live View Count: 6
+2024-05-30 01:22:57,641 - INFO - Live View Count: 6
+2024-05-30 01:22:58,675 - INFO - Live View Count: 6
+2024-05-30 01:22:59,700 - INFO - Live View Count: 6
+2024-05-30 01:23:00,725 - INFO - Live View Count: 6
+2024-05-30 01:23:01,760 - INFO - Live View Count: 6
+2024-05-30 01:23:02,782 - INFO - Live View Count: 6
+2024-05-30 01:23:03,813 - INFO - Live View Count: 6
+2024-05-30 01:23:04,831 - INFO - Live View Count: 6
+2024-05-30 01:23:05,857 - INFO - Live View Count: 6
+2024-05-30 01:23:06,883 - INFO - Live View Count: 6
+2024-05-30 01:23:07,903 - INFO - Live View Count: 6
+2024-05-30 01:23:08,927 - INFO - Live View Count: 6
+2024-05-30 01:23:09,954 - INFO - Live View Count: 6
+2024-05-30 01:23:10,979 - INFO - Live View Count: 6
+2024-05-30 01:23:12,000 - INFO - Live View Count: 6
+2024-05-30 01:23:13,021 - INFO - Live View Count: 6
+2024-05-30 01:23:14,048 - INFO - Live View Count: 6
+2024-05-30 01:23:15,071 - INFO - Live View Count: 6
+2024-05-30 01:23:24,695 - INFO - Live View Count: 5
+2024-05-30 01:23:25,716 - INFO - Live View Count: 5
+2024-05-30 01:23:26,736 - INFO - Live View Count: 5
+2024-05-30 01:23:27,759 - INFO - Live View Count: 5
+2024-05-30 01:23:28,793 - INFO - Live View Count: 5
+2024-05-30 01:23:29,827 - INFO - Live View Count: 5
+2024-05-30 01:23:30,853 - INFO - Live View Count: 5
+2024-05-30 01:23:31,875 - INFO - Live View Count: 5
+2024-05-30 01:23:32,894 - INFO - Live View Count: 5
+2024-05-30 01:23:33,913 - INFO - Live View Count: 5
+2024-05-30 01:23:34,937 - INFO - Live View Count: 5
+2024-05-30 01:23:35,965 - INFO - Live View Count: 5
+2024-05-30 01:23:36,991 - INFO - Live View Count: 5
+2024-05-30 01:23:38,009 - INFO - Live View Count: 5
+2024-05-30 01:23:39,039 - INFO - Live View Count: 5
+2024-05-30 01:23:40,065 - INFO - Live View Count: 5
+2024-05-30 01:23:41,099 - INFO - Live View Count: 5
+2024-05-30 01:23:42,124 - INFO - Live View Count: 5
+2024-05-30 01:23:43,153 - INFO - Live View Count: 5
+2024-05-30 01:23:44,175 - INFO - Live View Count: 5
+2024-05-30 01:23:45,204 - INFO - Live View Count: 5
+2024-05-30 01:23:46,234 - INFO - Live View Count: 5
+2024-05-30 01:23:47,262 - INFO - Live View Count: 5
+2024-05-30 01:23:48,288 - INFO - Live View Count: 5
+2024-05-30 01:23:49,314 - INFO - Live View Count: 5
+2024-05-30 01:23:50,338 - INFO - Live View Count: 5
+2024-05-30 01:23:51,355 - INFO - Live View Count: 5
+2024-05-30 01:23:52,387 - INFO - Live View Count: 5
+2024-05-30 01:23:53,412 - INFO - Live View Count: 5
+2024-05-30 01:23:54,434 - INFO - Live View Count: 5
+2024-05-30 01:23:55,458 - INFO - Live View Count: 5
+2024-05-30 01:23:56,489 - INFO - Live View Count: 5
+2024-05-30 01:23:57,509 - INFO - Live View Count: 5
+2024-05-30 01:23:58,538 - INFO - Live View Count: 5
+2024-05-30 01:23:59,563 - INFO - Live View Count: 5
+2024-05-30 01:24:00,584 - INFO - Live View Count: 5
+2024-05-30 01:24:01,616 - INFO - Live View Count: 5
+2024-05-30 01:24:02,644 - INFO - Live View Count: 5
+2024-05-30 01:24:03,673 - INFO - Live View Count: 5
+2024-05-30 01:24:04,696 - INFO - Live View Count: 5
+2024-05-30 01:24:05,721 - INFO - Live View Count: 5
+2024-05-30 01:24:06,750 - INFO - Live View Count: 5
+2024-05-30 01:24:07,774 - INFO - Live View Count: 5
+2024-05-30 01:24:08,799 - INFO - Live View Count: 5
+2024-05-30 01:24:09,823 - INFO - Live View Count: 5
+2024-05-30 01:24:10,842 - INFO - Live View Count: 5
+2024-05-30 01:24:11,866 - INFO - Live View Count: 5
+2024-05-30 01:24:12,896 - INFO - Live View Count: 5
+2024-05-30 01:24:13,917 - INFO - Live View Count: 5
+2024-05-30 01:24:14,935 - INFO - Live View Count: 5
+2024-05-30 01:24:24,412 - INFO - Live View Count: 3
+2024-05-30 01:24:25,450 - INFO - Live View Count: 3
+2024-05-30 01:24:26,487 - INFO - Live View Count: 3
+2024-05-30 01:24:27,518 - INFO - Live View Count: 3
+2024-05-30 01:24:28,548 - INFO - Live View Count: 3
+2024-05-30 01:24:29,601 - INFO - Live View Count: 3
+2024-05-30 01:24:30,617 - INFO - Live View Count: 3
+2024-05-30 01:24:31,647 - INFO - Live View Count: 3
+2024-05-30 01:24:32,669 - INFO - Live View Count: 3
+2024-05-30 01:24:33,683 - INFO - Live View Count: 3
+2024-05-30 01:24:34,713 - INFO - Live View Count: 3
+2024-05-30 01:24:35,734 - INFO - Live View Count: 3
+2024-05-30 01:24:36,763 - INFO - Live View Count: 3
+2024-05-30 01:24:37,782 - INFO - Live View Count: 3
+2024-05-30 01:24:38,810 - INFO - Live View Count: 3
+2024-05-30 01:24:39,837 - INFO - Live View Count: 3
+2024-05-30 01:24:40,861 - INFO - Live View Count: 3
+2024-05-30 01:24:41,875 - INFO - Live View Count: 3
+2024-05-30 01:24:42,905 - INFO - Live View Count: 3
+2024-05-30 01:24:43,930 - INFO - Live View Count: 3
+2024-05-30 01:24:44,952 - INFO - Live View Count: 3
+2024-05-30 01:24:45,979 - INFO - Live View Count: 3
+2024-05-30 01:24:47,002 - INFO - Live View Count: 3
+2024-05-30 01:24:48,031 - INFO - Live View Count: 3
+2024-05-30 01:24:49,056 - INFO - Live View Count: 3
+2024-05-30 01:24:50,079 - INFO - Live View Count: 3
+2024-05-30 01:24:51,108 - INFO - Live View Count: 3
+2024-05-30 01:24:52,129 - INFO - Live View Count: 3
+2024-05-30 01:24:53,147 - INFO - Live View Count: 3
+2024-05-30 01:24:54,176 - INFO - Live View Count: 3
+2024-05-30 01:24:55,203 - INFO - Live View Count: 
+2024-05-30 01:24:56,220 - INFO - Live View Count: 6
+2024-05-30 01:24:57,247 - INFO - Live View Count: 6
+2024-05-30 01:24:58,272 - INFO - Live View Count: 6
+2024-05-30 01:24:59,287 - INFO - Live View Count: 6
+2024-05-30 01:25:00,312 - INFO - Live View Count: 6
+2024-05-30 01:25:01,327 - INFO - Live View Count: 6
+2024-05-30 01:25:02,354 - INFO - Live View Count: 6
+2024-05-30 01:25:03,382 - INFO - Live View Count: 6
+2024-05-30 01:25:04,407 - INFO - Live View Count: 6
+2024-05-30 01:25:05,433 - INFO - Live View Count: 6
+2024-05-30 01:25:06,461 - INFO - Live View Count: 6
+2024-05-30 01:25:07,485 - INFO - Live View Count: 6
+2024-05-30 01:25:08,514 - INFO - Live View Count: 6
+2024-05-30 01:25:09,538 - INFO - Live View Count: 6
+2024-05-30 01:25:10,567 - INFO - Live View Count: 6
+2024-05-30 01:25:11,596 - INFO - Live View Count: 6
+2024-05-30 01:25:12,629 - INFO - Live View Count: 6
+2024-05-30 01:25:13,648 - INFO - Live View Count: 6
+2024-05-30 01:25:14,677 - INFO - Live View Count: 6
+2024-05-30 01:25:23,993 - INFO - Live View Count: 6
+2024-05-30 01:25:25,024 - INFO - Live View Count: 6
+2024-05-30 01:25:26,047 - INFO - Live View Count: 6
+2024-05-30 01:25:27,071 - INFO - Live View Count: 6
+2024-05-30 01:25:28,094 - INFO - Live View Count: 6
+2024-05-30 01:25:29,122 - INFO - Live View Count: 6
+2024-05-30 01:25:30,150 - INFO - Live View Count: 6
+2024-05-30 01:25:31,178 - INFO - Live View Count: 6
+2024-05-30 01:25:32,200 - INFO - Live View Count: 6
+2024-05-30 01:25:33,230 - INFO - Live View Count: 6
+2024-05-30 01:25:34,257 - INFO - Live View Count: 6
+2024-05-30 01:25:35,280 - INFO - Live View Count: 6
+2024-05-30 01:25:36,303 - INFO - Live View Count: 6
+2024-05-30 01:25:37,330 - INFO - Live View Count: 6
+2024-05-30 01:25:38,353 - INFO - Live View Count: 6
+2024-05-30 01:25:39,374 - INFO - Live View Count: 6
+2024-05-30 01:25:40,400 - INFO - Live View Count: 6
+2024-05-30 01:25:41,420 - INFO - Live View Count: 6
+2024-05-30 01:25:42,449 - INFO - Live View Count: 6
+2024-05-30 01:25:43,474 - INFO - Live View Count: 6
+2024-05-30 01:25:44,491 - INFO - Live View Count: 6
+2024-05-30 01:25:45,515 - INFO - Live View Count: 6
+2024-05-30 01:25:46,542 - INFO - Live View Count: 6
+2024-05-30 01:25:47,573 - INFO - Live View Count: 6
+2024-05-30 01:25:48,601 - INFO - Live View Count: 6
+2024-05-30 01:25:49,627 - INFO - Live View Count: 6
+2024-05-30 01:25:50,653 - INFO - Live View Count: 6
+2024-05-30 01:25:51,680 - INFO - Live View Count: 6
+2024-05-30 01:25:52,709 - INFO - Live View Count: 6
+2024-05-30 01:25:53,735 - INFO - Live View Count: 6
+2024-05-30 01:25:54,759 - INFO - Live View Count: 
+2024-05-30 01:25:55,787 - INFO - Live View Count: 2
+2024-05-30 01:25:56,807 - INFO - Live View Count: 2
+2024-05-30 01:25:57,835 - INFO - Live View Count: 2
+2024-05-30 01:25:58,857 - INFO - Live View Count: 2
+2024-05-30 01:25:59,875 - INFO - Live View Count: 2
+2024-05-30 01:26:00,907 - INFO - Live View Count: 2
+2024-05-30 01:26:01,938 - INFO - Live View Count: 2
+2024-05-30 01:26:02,964 - INFO - Live View Count: 2
+2024-05-30 01:26:03,989 - INFO - Live View Count: 2
+2024-05-30 01:26:05,014 - INFO - Live View Count: 2
+2024-05-30 01:26:06,036 - INFO - Live View Count: 2
+2024-05-30 01:26:07,059 - INFO - Live View Count: 2
+2024-05-30 01:26:08,086 - INFO - Live View Count: 2
+2024-05-30 01:26:09,107 - INFO - Live View Count: 2
+2024-05-30 01:26:10,133 - INFO - Live View Count: 2
+2024-05-30 01:26:11,151 - INFO - Live View Count: 2
+2024-05-30 01:26:12,178 - INFO - Live View Count: 2
+2024-05-30 01:26:13,205 - INFO - Live View Count: 2
+2024-05-30 01:26:14,236 - INFO - Live View Count: 2
+2024-05-30 01:26:24,065 - INFO - Live View Count: 2
+2024-05-30 01:26:25,093 - INFO - Live View Count: 2
+2024-05-30 01:26:26,126 - INFO - Live View Count: 2
+2024-05-30 01:26:27,144 - INFO - Live View Count: 2
+2024-05-30 01:26:28,175 - INFO - Live View Count: 2
+2024-05-30 01:26:29,193 - INFO - Live View Count: 2
+2024-05-30 01:26:30,214 - INFO - Live View Count: 2
+2024-05-30 01:26:31,240 - INFO - Live View Count: 2
+2024-05-30 01:26:32,268 - INFO - Live View Count: 2
+2024-05-30 01:26:33,297 - INFO - Live View Count: 2
+2024-05-30 01:26:34,320 - INFO - Live View Count: 2
+2024-05-30 01:26:35,350 - INFO - Live View Count: 2
+2024-05-30 01:26:36,378 - INFO - Live View Count: 2
+2024-05-30 01:26:37,400 - INFO - Live View Count: 2
+2024-05-30 01:26:38,424 - INFO - Live View Count: 2
+2024-05-30 01:26:39,442 - INFO - Live View Count: 2
+2024-05-30 01:26:40,469 - INFO - Live View Count: 2
+2024-05-30 01:26:41,564 - INFO - Live View Count: 2
+2024-05-30 01:26:42,583 - INFO - Live View Count: 2
+2024-05-30 01:26:43,605 - INFO - Live View Count: 2
+2024-05-30 01:26:44,638 - INFO - Live View Count: 2
+2024-05-30 01:26:45,663 - INFO - Live View Count: 2
+2024-05-30 01:26:46,692 - INFO - Live View Count: 2
+2024-05-30 01:26:47,718 - INFO - Live View Count: 2
+2024-05-30 01:26:48,739 - INFO - Live View Count: 2
+2024-05-30 01:26:49,768 - INFO - Live View Count: 2
+2024-05-30 01:26:50,797 - INFO - Live View Count: 2
+2024-05-30 01:26:51,826 - INFO - Live View Count: 2
+2024-05-30 01:26:52,858 - INFO - Live View Count: 2
+2024-05-30 01:26:53,890 - INFO - Live View Count: 2
+2024-05-30 01:26:54,915 - INFO - Live View Count: 2
+2024-05-30 01:26:55,934 - INFO - Live View Count: 2
+2024-05-30 01:26:56,972 - INFO - Live View Count: 2
+2024-05-30 01:26:57,998 - INFO - Live View Count: 
+2024-05-30 01:26:59,028 - INFO - Live View Count: 
+2024-05-30 01:27:00,056 - INFO - Live View Count: 5
+2024-05-30 01:27:01,075 - INFO - Live View Count: 5
+2024-05-30 01:27:02,089 - INFO - Live View Count: 5
+2024-05-30 01:27:03,111 - INFO - Live View Count: 5
+2024-05-30 01:27:04,133 - INFO - Live View Count: 5
+2024-05-30 01:27:05,150 - INFO - Live View Count: 5
+2024-05-30 01:27:06,174 - INFO - Live View Count: 5
+2024-05-30 01:27:07,204 - INFO - Live View Count: 5
+2024-05-30 01:27:08,238 - INFO - Live View Count: 5
+2024-05-30 01:27:09,264 - INFO - Live View Count: 5
+2024-05-30 01:27:10,295 - INFO - Live View Count: 5
+2024-05-30 01:27:11,321 - INFO - Live View Count: 5
+2024-05-30 01:27:12,338 - INFO - Live View Count: 5
+2024-05-30 01:27:13,362 - INFO - Live View Count: 5
+2024-05-30 01:27:14,389 - INFO - Live View Count: 5
+2024-05-30 01:27:23,713 - INFO - Live View Count: 5
+2024-05-30 01:27:24,737 - INFO - Live View Count: 5
+2024-05-30 01:27:25,772 - INFO - Live View Count: 5
+2024-05-30 01:27:26,805 - INFO - Live View Count: 5
+2024-05-30 01:27:27,823 - INFO - Live View Count: 5
+2024-05-30 01:27:28,857 - INFO - Live View Count: 5
+2024-05-30 01:27:29,878 - INFO - Live View Count: 5
+2024-05-30 01:27:30,908 - INFO - Live View Count: 5
+2024-05-30 01:27:31,934 - INFO - Live View Count: 5
+2024-05-30 01:27:32,964 - INFO - Live View Count: 5
+2024-05-30 01:27:33,992 - INFO - Live View Count: 5
+2024-05-30 01:27:35,024 - INFO - Live View Count: 5
+2024-05-30 01:27:36,046 - INFO - Live View Count: 5
+2024-05-30 01:27:37,070 - INFO - Live View Count: 5
+2024-05-30 01:27:38,098 - INFO - Live View Count: 5
+2024-05-30 01:27:39,127 - INFO - Live View Count: 5
+2024-05-30 01:27:40,147 - INFO - Live View Count: 5
+2024-05-30 01:27:41,177 - INFO - Live View Count: 5
+2024-05-30 01:27:42,203 - INFO - Live View Count: 5
+2024-05-30 01:27:43,234 - INFO - Live View Count: 5
+2024-05-30 01:27:44,264 - INFO - Live View Count: 5
+2024-05-30 01:27:45,294 - INFO - Live View Count: 5
+2024-05-30 01:27:46,314 - INFO - Live View Count: 5
+2024-05-30 01:27:47,335 - INFO - Live View Count: 5
+2024-05-30 01:27:48,352 - INFO - Live View Count: 5
+2024-05-30 01:27:49,380 - INFO - Live View Count: 5
+2024-05-30 01:27:50,396 - INFO - Live View Count: 5
+2024-05-30 01:27:51,412 - INFO - Live View Count: 5
+2024-05-30 01:27:52,441 - INFO - Live View Count: 5
+2024-05-30 01:27:53,469 - INFO - Live View Count: 5
+2024-05-30 01:27:54,499 - INFO - Live View Count: 5
+2024-05-30 01:27:55,515 - INFO - Live View Count: 5
+2024-05-30 01:27:56,542 - INFO - Live View Count: 5
+2024-05-30 01:27:57,564 - INFO - Live View Count: 5
+2024-05-30 01:27:58,598 - INFO - Live View Count: 5
+2024-05-30 01:27:59,624 - INFO - Live View Count: 5
+2024-05-30 01:28:00,644 - INFO - Live View Count: 5
+2024-05-30 01:28:01,665 - INFO - Live View Count: 5
+2024-05-30 01:28:02,690 - INFO - Live View Count: 5
+2024-05-30 01:28:03,713 - INFO - Live View Count: 5
+2024-05-30 01:28:04,728 - INFO - Live View Count: 5
+2024-05-30 01:28:05,748 - INFO - Live View Count: 5
+2024-05-30 01:28:06,774 - INFO - Live View Count: 5
+2024-05-30 01:28:07,804 - INFO - Live View Count: 5
+2024-05-30 01:28:08,838 - INFO - Live View Count: 5
+2024-05-30 01:28:09,865 - INFO - Live View Count: 5
+2024-05-30 01:28:10,897 - INFO - Live View Count: 5
+2024-05-30 01:28:11,921 - INFO - Live View Count: 5
+2024-05-30 01:28:12,949 - INFO - Live View Count: 5
+2024-05-30 01:28:13,979 - INFO - Live View Count: 5
+2024-05-30 01:28:23,664 - INFO - Live View Count: 3
+2024-05-30 01:28:24,692 - INFO - Live View Count: 3
+2024-05-30 01:28:25,722 - INFO - Live View Count: 3
+2024-05-30 01:28:26,747 - INFO - Live View Count: 3
+2024-05-30 01:28:27,771 - INFO - Live View Count: 3
+2024-05-30 01:28:28,800 - INFO - Live View Count: 3
+2024-05-30 01:28:29,828 - INFO - Live View Count: 3
+2024-05-30 01:28:30,851 - INFO - Live View Count: 3
+2024-05-30 01:28:31,878 - INFO - Live View Count: 3
+2024-05-30 01:28:32,902 - INFO - Live View Count: 3
+2024-05-30 01:28:33,934 - INFO - Live View Count: 3
+2024-05-30 01:28:34,959 - INFO - Live View Count: 3
+2024-05-30 01:28:35,989 - INFO - Live View Count: 3
+2024-05-30 01:28:37,015 - INFO - Live View Count: 3
+2024-05-30 01:28:38,049 - INFO - Live View Count: 3
+2024-05-30 01:28:39,072 - INFO - Live View Count: 3
+2024-05-30 01:28:40,104 - INFO - Live View Count: 3
+2024-05-30 01:28:41,137 - INFO - Live View Count: 3
+2024-05-30 01:28:42,163 - INFO - Live View Count: 3
+2024-05-30 01:28:43,187 - INFO - Live View Count: 3
+2024-05-30 01:28:44,214 - INFO - Live View Count: 3
+2024-05-30 01:28:45,236 - INFO - Live View Count: 3
+2024-05-30 01:28:46,266 - INFO - Live View Count: 3
+2024-05-30 01:28:47,295 - INFO - Live View Count: 3
+2024-05-30 01:28:48,321 - INFO - Live View Count: 3
+2024-05-30 01:28:49,347 - INFO - Live View Count: 3
+2024-05-30 01:28:50,379 - INFO - Live View Count: 3
+2024-05-30 01:28:51,406 - INFO - Live View Count: 3
+2024-05-30 01:28:52,430 - INFO - Live View Count: 3
+2024-05-30 01:28:53,458 - INFO - Live View Count: 3
+2024-05-30 01:28:54,485 - INFO - Live View Count: 3
+2024-05-30 01:28:55,503 - INFO - Live View Count: 3
+2024-05-30 01:28:56,524 - INFO - Live View Count: 3
+2024-05-30 01:28:57,550 - INFO - Live View Count: 3
+2024-05-30 01:28:58,577 - INFO - Live View Count: 3
+2024-05-30 01:28:59,597 - INFO - Live View Count: 3
+2024-05-30 01:29:00,626 - INFO - Live View Count: 3
+2024-05-30 01:29:01,654 - INFO - Live View Count: 3
+2024-05-30 01:29:02,677 - INFO - Live View Count: 3
+2024-05-30 01:29:03,702 - INFO - Live View Count: 3
+2024-05-30 01:29:04,721 - INFO - Live View Count: 3
+2024-05-30 01:29:05,744 - INFO - Live View Count: 3
+2024-05-30 01:29:06,776 - INFO - Live View Count: 3
+2024-05-30 01:29:07,802 - INFO - Live View Count: 3
+2024-05-30 01:29:08,823 - INFO - Live View Count: 3
+2024-05-30 01:29:09,855 - INFO - Live View Count: 3
+2024-05-30 01:29:10,882 - INFO - Live View Count: 3
+2024-05-30 01:29:11,904 - INFO - Live View Count: 3
+2024-05-30 01:29:12,929 - INFO - Live View Count: 3
+2024-05-30 01:29:13,959 - INFO - Live View Count: 3
+2024-05-30 01:29:23,211 - INFO - Live View Count: 5
+2024-05-30 01:29:24,235 - INFO - Live View Count: 5
+2024-05-30 01:29:25,265 - INFO - Live View Count: 5
+2024-05-30 01:29:26,287 - INFO - Live View Count: 5
+2024-05-30 01:29:27,316 - INFO - Live View Count: 5
+2024-05-30 01:29:28,347 - INFO - Live View Count: 5
+2024-05-30 01:29:29,376 - INFO - Live View Count: 5
+2024-05-30 01:29:30,405 - INFO - Live View Count: 5
+2024-05-30 01:29:31,435 - INFO - Live View Count: 5
+2024-05-30 01:29:32,453 - INFO - Live View Count: 5
+2024-05-30 01:29:33,474 - INFO - Live View Count: 5
+2024-05-30 01:29:34,505 - INFO - Live View Count: 5
+2024-05-30 01:29:35,536 - INFO - Live View Count: 5
+2024-05-30 01:29:36,554 - INFO - Live View Count: 5
+2024-05-30 01:29:37,576 - INFO - Live View Count: 5
+2024-05-30 01:29:38,605 - INFO - Live View Count: 5
+2024-05-30 01:29:39,625 - INFO - Live View Count: 5
+2024-05-30 01:29:40,650 - INFO - Live View Count: 5
+2024-05-30 01:29:41,679 - INFO - Live View Count: 5
+2024-05-30 01:29:42,709 - INFO - Live View Count: 5
+2024-05-30 01:29:43,725 - INFO - Live View Count: 5
+2024-05-30 01:29:44,754 - INFO - Live View Count: 5
+2024-05-30 01:29:45,779 - INFO - Live View Count: 5
+2024-05-30 01:29:46,809 - INFO - Live View Count: 5
+2024-05-30 01:29:47,839 - INFO - Live View Count: 5
+2024-05-30 01:29:48,860 - INFO - Live View Count: 5
+2024-05-30 01:29:49,881 - INFO - Live View Count: 5
+2024-05-30 01:29:50,905 - INFO - Live View Count: 5
+2024-05-30 01:29:51,937 - INFO - Live View Count: 5
+2024-05-30 01:29:52,963 - INFO - Live View Count: 5
+2024-05-30 01:29:53,990 - INFO - Live View Count: 3
+2024-05-30 01:29:55,014 - INFO - Live View Count: 3
+2024-05-30 01:29:56,040 - INFO - Live View Count: 3
+2024-05-30 01:29:57,068 - INFO - Live View Count: 3
+2024-05-30 01:29:58,097 - INFO - Live View Count: 3
+2024-05-30 01:29:59,122 - INFO - Live View Count: 3
+2024-05-30 01:30:00,148 - INFO - Live View Count: 3
+2024-05-30 01:30:01,176 - INFO - Live View Count: 3
+2024-05-30 01:30:02,191 - INFO - Live View Count: 3
+2024-05-30 01:30:03,211 - INFO - Live View Count: 3
+2024-05-30 01:30:04,237 - INFO - Live View Count: 3
+2024-05-30 01:30:05,252 - INFO - Live View Count: 3
+2024-05-30 01:30:06,281 - INFO - Live View Count: 3
+2024-05-30 01:30:07,309 - INFO - Live View Count: 3
+2024-05-30 01:30:08,326 - INFO - Live View Count: 3
+2024-05-30 01:30:09,355 - INFO - Live View Count: 3
+2024-05-30 01:30:10,385 - INFO - Live View Count: 3
+2024-05-30 01:30:11,412 - INFO - Live View Count: 3
+2024-05-30 01:30:12,442 - INFO - Live View Count: 3
+2024-05-30 01:30:13,472 - INFO - Live View Count: 3
+2024-05-30 01:30:23,545 - INFO - Live View Count: 3
+2024-05-30 01:30:24,570 - INFO - Live View Count: 3
+2024-05-30 01:30:25,599 - INFO - Live View Count: 3
+2024-05-30 01:30:26,630 - INFO - Live View Count: 3
+2024-05-30 01:30:27,660 - INFO - Live View Count: 3
+2024-05-30 01:30:28,690 - INFO - Live View Count: 3
+2024-05-30 01:30:29,720 - INFO - Live View Count: 3
+2024-05-30 01:30:30,752 - INFO - Live View Count: 3
+2024-05-30 01:30:31,781 - INFO - Live View Count: 3
+2024-05-30 01:30:32,810 - INFO - Live View Count: 3
+2024-05-30 01:30:33,829 - INFO - Live View Count: 3
+2024-05-30 01:30:34,856 - INFO - Live View Count: 3
+2024-05-30 01:30:35,884 - INFO - Live View Count: 3
+2024-05-30 01:30:36,916 - INFO - Live View Count: 3
+2024-05-30 01:30:37,936 - INFO - Live View Count: 3
+2024-05-30 01:30:38,956 - INFO - Live View Count: 3
+2024-05-30 01:30:39,987 - INFO - Live View Count: 3
+2024-05-30 01:30:41,017 - INFO - Live View Count: 3
+2024-05-30 01:30:42,035 - INFO - Live View Count: 3
+2024-05-30 01:30:43,065 - INFO - Live View Count: 3
+2024-05-30 01:30:44,087 - INFO - Live View Count: 3
+2024-05-30 01:30:45,114 - INFO - Live View Count: 3
+2024-05-30 01:30:46,128 - INFO - Live View Count: 3
+2024-05-30 01:30:47,157 - INFO - Live View Count: 3
+2024-05-30 01:30:48,182 - INFO - Live View Count: 3
+2024-05-30 01:30:49,212 - INFO - Live View Count: 3
+2024-05-30 01:30:50,242 - INFO - Live View Count: 3
+2024-05-30 01:30:51,269 - INFO - Live View Count: 3
+2024-05-30 01:30:52,297 - INFO - Live View Count: 3
+2024-05-30 01:30:53,324 - INFO - Live View Count: 3
+2024-05-30 01:30:54,342 - INFO - Live View Count: 3
+2024-05-30 01:30:55,357 - INFO - Live View Count: 3
+2024-05-30 01:30:56,374 - INFO - Live View Count: 3
+2024-05-30 01:30:57,407 - INFO - Live View Count: 3
+2024-05-30 01:30:58,435 - INFO - Live View Count: 3
+2024-05-30 01:30:59,463 - INFO - Live View Count: 3
+2024-05-30 01:31:00,489 - INFO - Live View Count: 3
+2024-05-30 01:31:01,508 - INFO - Live View Count: 3
+2024-05-30 01:31:02,534 - INFO - Live View Count: 3
+2024-05-30 01:31:03,562 - INFO - Live View Count: 3
+2024-05-30 01:31:04,585 - INFO - Live View Count: 3
+2024-05-30 01:31:05,615 - INFO - Live View Count: 3
+2024-05-30 01:31:06,638 - INFO - Live View Count: 3
+2024-05-30 01:31:07,668 - INFO - Live View Count: 3
+2024-05-30 01:31:08,700 - INFO - Live View Count: 3
+2024-05-30 01:31:09,729 - INFO - Live View Count: 3
+2024-05-30 01:31:10,755 - INFO - Live View Count: 3
+2024-05-30 01:31:11,769 - INFO - Live View Count: 3
+2024-05-30 01:31:12,798 - INFO - Live View Count: 3
+2024-05-30 01:31:13,827 - INFO - Live View Count: 3
+2024-05-30 01:31:23,289 - INFO - Live View Count: 3
+2024-05-30 01:31:24,316 - INFO - Live View Count: 3
+2024-05-30 01:31:25,340 - INFO - Live View Count: 3
+2024-05-30 01:31:26,362 - INFO - Live View Count: 3
+2024-05-30 01:31:27,393 - INFO - Live View Count: 3
+2024-05-30 01:31:28,420 - INFO - Live View Count: 3
+2024-05-30 01:31:29,435 - INFO - Live View Count: 3
+2024-05-30 01:31:30,453 - INFO - Live View Count: 3
+2024-05-30 01:31:31,482 - INFO - Live View Count: 3
+2024-05-30 01:31:32,511 - INFO - Live View Count: 3
+2024-05-30 01:31:33,541 - INFO - Live View Count: 3
+2024-05-30 01:31:34,567 - INFO - Live View Count: 3
+2024-05-30 01:31:35,599 - INFO - Live View Count: 3
+2024-05-30 01:31:36,625 - INFO - Live View Count: 3
+2024-05-30 01:31:37,643 - INFO - Live View Count: 3
+2024-05-30 01:31:38,669 - INFO - Live View Count: 3
+2024-05-30 01:31:39,689 - INFO - Live View Count: 3
+2024-05-30 01:31:40,716 - INFO - Live View Count: 3
+2024-05-30 01:31:41,745 - INFO - Live View Count: 3
+2024-05-30 01:31:42,760 - INFO - Live View Count: 3
+2024-05-30 01:31:43,788 - INFO - Live View Count: 3
+2024-05-30 01:31:44,811 - INFO - Live View Count: 3
+2024-05-30 01:31:45,829 - INFO - Live View Count: 3
+2024-05-30 01:31:46,848 - INFO - Live View Count: 3
+2024-05-30 01:31:47,875 - INFO - Live View Count: 3
+2024-05-30 01:31:48,902 - INFO - Live View Count: 3
+2024-05-30 01:31:49,921 - INFO - Live View Count: 3
+2024-05-30 01:31:50,945 - INFO - Live View Count: 3
+2024-05-30 01:31:51,960 - INFO - Live View Count: 3
+2024-05-30 01:31:52,989 - INFO - Live View Count: 3
+2024-05-30 01:31:54,016 - INFO - Live View Count: 3
+2024-05-30 01:31:55,046 - INFO - Live View Count: 3
+2024-05-30 01:31:56,077 - INFO - Live View Count: 3
+2024-05-30 01:31:57,104 - INFO - Live View Count: 3
+2024-05-30 01:31:58,131 - INFO - Live View Count: 3
+2024-05-30 01:31:59,158 - INFO - Live View Count: 3
+2024-05-30 01:32:00,188 - INFO - Live View Count: 3
+2024-05-30 01:32:01,217 - INFO - Live View Count: 3
+2024-05-30 01:32:02,237 - INFO - Live View Count: 3
+2024-05-30 01:32:03,262 - INFO - Live View Count: 3
+2024-05-30 01:32:04,292 - INFO - Live View Count: 3
+2024-05-30 01:32:05,314 - INFO - Live View Count: 3
+2024-05-30 01:32:06,336 - INFO - Live View Count: 3
+2024-05-30 01:32:07,357 - INFO - Live View Count: 3
+2024-05-30 01:32:08,372 - INFO - Live View Count: 3
+2024-05-30 01:32:09,391 - INFO - Live View Count: 3
+2024-05-30 01:32:10,416 - INFO - Live View Count: 3
+2024-05-30 01:32:11,440 - INFO - Live View Count: 3
+2024-05-30 01:32:12,467 - INFO - Live View Count: 3
+2024-05-30 01:32:13,494 - INFO - Live View Count: 3
+2024-05-30 01:32:23,173 - INFO - Live View Count: 3
+2024-05-30 01:32:24,202 - INFO - Live View Count: 3
+2024-05-30 01:32:25,239 - INFO - Live View Count: 3
+2024-05-30 01:32:26,270 - INFO - Live View Count: 3
+2024-05-30 01:32:27,290 - INFO - Live View Count: 3
+2024-05-30 01:32:28,318 - INFO - Live View Count: 3
+2024-05-30 01:32:29,346 - INFO - Live View Count: 3
+2024-05-30 01:32:30,373 - INFO - Live View Count: 3
+2024-05-30 01:32:31,401 - INFO - Live View Count: 3
+2024-05-30 01:32:32,419 - INFO - Live View Count: 3
+2024-05-30 01:32:33,449 - INFO - Live View Count: 3
+2024-05-30 01:32:34,474 - INFO - Live View Count: 3
+2024-05-30 01:32:35,494 - INFO - Live View Count: 3
+2024-05-30 01:32:36,521 - INFO - Live View Count: 3
+2024-05-30 01:32:37,548 - INFO - Live View Count: 3
+2024-05-30 01:32:38,566 - INFO - Live View Count: 3
+2024-05-30 01:32:39,596 - INFO - Live View Count: 3
+2024-05-30 01:32:40,626 - INFO - Live View Count: 3
+2024-05-30 01:32:41,647 - INFO - Live View Count: 3
+2024-05-30 01:32:42,678 - INFO - Live View Count: 3
+2024-05-30 01:32:43,706 - INFO - Live View Count: 3
+2024-05-30 01:32:44,741 - INFO - Live View Count: 3
+2024-05-30 01:32:45,759 - INFO - Live View Count: 3
+2024-05-30 01:32:46,778 - INFO - Live View Count: 3
+2024-05-30 01:32:47,803 - INFO - Live View Count: 3
+2024-05-30 01:32:48,829 - INFO - Live View Count: 3
+2024-05-30 01:32:49,855 - INFO - Live View Count: 3
+2024-05-30 01:32:50,873 - INFO - Live View Count: 3
+2024-05-30 01:32:51,897 - INFO - Live View Count: 3
+2024-05-30 01:32:52,915 - INFO - Live View Count: 3
+2024-05-30 01:32:53,946 - INFO - Live View Count: 3
+2024-05-30 01:32:54,971 - INFO - Live View Count: 3
+2024-05-30 01:32:56,002 - INFO - Live View Count: 3
+2024-05-30 01:32:57,022 - INFO - Live View Count: 3
+2024-05-30 01:32:58,046 - INFO - Live View Count: 3
+2024-05-30 01:32:59,065 - INFO - Live View Count: 3
+2024-05-30 01:33:00,096 - INFO - Live View Count: 3
+2024-05-30 01:33:01,124 - INFO - Live View Count: 3
+2024-05-30 01:33:02,151 - INFO - Live View Count: 3
+2024-05-30 01:33:03,173 - INFO - Live View Count: 3
+2024-05-30 01:33:04,199 - INFO - Live View Count: 3
+2024-05-30 01:33:05,224 - INFO - Live View Count: 3
+2024-05-30 01:33:06,250 - INFO - Live View Count: 3
+2024-05-30 01:33:07,277 - INFO - Live View Count: 3
+2024-05-30 01:33:08,307 - INFO - Live View Count: 3
+2024-05-30 01:33:09,330 - INFO - Live View Count: 3
+2024-05-30 01:33:10,354 - INFO - Live View Count: 3
+2024-05-30 01:33:11,379 - INFO - Live View Count: 3
+2024-05-30 01:33:12,402 - INFO - Live View Count: 3
+2024-05-30 01:33:13,436 - INFO - Live View Count: 3
+2024-05-30 01:33:22,886 - INFO - Live View Count: 3
+2024-05-30 01:33:23,919 - INFO - Live View Count: 3
+2024-05-30 01:33:24,949 - INFO - Live View Count: 3
+2024-05-30 01:33:25,974 - INFO - Live View Count: 3
+2024-05-30 01:33:27,003 - INFO - Live View Count: 3
+2024-05-30 01:33:28,034 - INFO - Live View Count: 3
+2024-05-30 01:33:29,065 - INFO - Live View Count: 3
+2024-05-30 01:33:30,100 - INFO - Live View Count: 3
+2024-05-30 01:33:31,134 - INFO - Live View Count: 3
+2024-05-30 01:33:32,160 - INFO - Live View Count: 3
+2024-05-30 01:33:33,190 - INFO - Live View Count: 3
+2024-05-30 01:33:34,213 - INFO - Live View Count: 3
+2024-05-30 01:33:35,233 - INFO - Live View Count: 3
+2024-05-30 01:33:36,248 - INFO - Live View Count: 3
+2024-05-30 01:33:37,262 - INFO - Live View Count: 3
+2024-05-30 01:33:38,277 - INFO - Live View Count: 3
+2024-05-30 01:33:39,292 - INFO - Live View Count: 3
+2024-05-30 01:33:40,322 - INFO - Live View Count: 3
+2024-05-30 01:33:41,354 - INFO - Live View Count: 3
+2024-05-30 01:33:42,379 - INFO - Live View Count: 3
+2024-05-30 01:33:43,399 - INFO - Live View Count: 3
+2024-05-30 01:33:44,426 - INFO - Live View Count: 3
+2024-05-30 01:33:45,448 - INFO - Live View Count: 3
+2024-05-30 01:33:46,461 - INFO - Live View Count: 3
+2024-05-30 01:33:47,491 - INFO - Live View Count: 3
+2024-05-30 01:33:48,514 - INFO - Live View Count: 3
+2024-05-30 01:33:49,543 - INFO - Live View Count: 3
+2024-05-30 01:33:50,571 - INFO - Live View Count: 3
+2024-05-30 01:33:51,598 - INFO - Live View Count: 3
+2024-05-30 01:33:52,633 - INFO - Live View Count: 3
+2024-05-30 01:33:53,657 - INFO - Live View Count: 3
+2024-05-30 01:33:54,676 - INFO - Live View Count: 3
+2024-05-30 01:33:55,702 - INFO - Live View Count: 3
+2024-05-30 01:33:56,734 - INFO - Live View Count: 3
+2024-05-30 01:33:57,767 - INFO - Live View Count: 3
+2024-05-30 01:33:58,797 - INFO - Live View Count: 3
+2024-05-30 01:33:59,814 - INFO - Live View Count: 3
+2024-05-30 01:34:00,847 - INFO - Live View Count: 3
+2024-05-30 01:34:01,881 - INFO - Live View Count: 3
+2024-05-30 01:34:02,904 - INFO - Live View Count: 3
+2024-05-30 01:34:03,930 - INFO - Live View Count: 3
+2024-05-30 01:34:04,957 - INFO - Live View Count: 3
+2024-05-30 01:34:05,984 - INFO - Live View Count: 3
+2024-05-30 01:34:07,000 - INFO - Live View Count: 3
+2024-05-30 01:34:08,019 - INFO - Live View Count: 3
+2024-05-30 01:34:09,040 - INFO - Live View Count: 3
+2024-05-30 01:34:10,059 - INFO - Live View Count: 3
+2024-05-30 01:34:11,087 - INFO - Live View Count: 3
+2024-05-30 01:34:12,113 - INFO - Live View Count: 3
+2024-05-30 01:34:13,143 - INFO - Live View Count: 3
+2024-05-30 01:34:22,742 - INFO - Live View Count: 3
+2024-05-30 01:34:23,766 - INFO - Live View Count: 3
+2024-05-30 01:34:24,789 - INFO - Live View Count: 3
+2024-05-30 01:34:25,819 - INFO - Live View Count: 3
+2024-05-30 01:34:26,852 - INFO - Live View Count: 3
+2024-05-30 01:34:27,883 - INFO - Live View Count: 3
+2024-05-30 01:34:28,910 - INFO - Live View Count: 3
+2024-05-30 01:34:29,933 - INFO - Live View Count: 3
+2024-05-30 01:34:30,964 - INFO - Live View Count: 3
+2024-05-30 01:34:31,996 - INFO - Live View Count: 3
+2024-05-30 01:34:33,022 - INFO - Live View Count: 3
+2024-05-30 01:34:34,046 - INFO - Live View Count: 3
+2024-05-30 01:34:35,075 - INFO - Live View Count: 3
+2024-05-30 01:34:36,097 - INFO - Live View Count: 3
+2024-05-30 01:34:37,115 - INFO - Live View Count: 3
+2024-05-30 01:34:38,146 - INFO - Live View Count: 3
+2024-05-30 01:34:39,167 - INFO - Live View Count: 3
+2024-05-30 01:34:40,195 - INFO - Live View Count: 3
+2024-05-30 01:34:41,225 - INFO - Live View Count: 3
+2024-05-30 01:34:42,255 - INFO - Live View Count: 3
+2024-05-30 01:34:43,281 - INFO - Live View Count: 3
+2024-05-30 01:34:44,312 - INFO - Live View Count: 3
+2024-05-30 01:34:45,342 - INFO - Live View Count: 3
+2024-05-30 01:34:46,355 - INFO - Live View Count: 3
+2024-05-30 01:34:47,375 - INFO - Live View Count: 3
+2024-05-30 01:34:48,392 - INFO - Live View Count: 3
+2024-05-30 01:34:49,406 - INFO - Live View Count: 3
+2024-05-30 01:34:50,434 - INFO - Live View Count: 3
+2024-05-30 01:34:51,451 - INFO - Live View Count: 3
+2024-05-30 01:34:52,482 - INFO - Live View Count: 3
+2024-05-30 01:34:53,511 - INFO - Live View Count: 3
+2024-05-30 01:34:54,541 - INFO - Live View Count: 3
+2024-05-30 01:34:55,572 - INFO - Live View Count: 3
+2024-05-30 01:34:56,592 - INFO - Live View Count: 3
+2024-05-30 01:34:57,621 - INFO - Live View Count: 3
+2024-05-30 01:34:58,637 - INFO - Live View Count: 3
+2024-05-30 01:34:59,665 - INFO - Live View Count: 3
+2024-05-30 01:35:00,698 - INFO - Live View Count: 3
+2024-05-30 01:35:01,726 - INFO - Live View Count: 3
+2024-05-30 01:35:02,754 - INFO - Live View Count: 3
+2024-05-30 01:35:03,778 - INFO - Live View Count: 3
+2024-05-30 01:35:04,809 - INFO - Live View Count: 3
+2024-05-30 01:35:05,840 - INFO - Live View Count: 3
+2024-05-30 01:35:06,871 - INFO - Live View Count: 3
+2024-05-30 01:35:07,903 - INFO - Live View Count: 3
+2024-05-30 01:35:08,930 - INFO - Live View Count: 3
+2024-05-30 01:35:09,957 - INFO - Live View Count: 3
+2024-05-30 01:35:10,984 - INFO - Live View Count: 3
+2024-05-30 01:35:11,997 - INFO - Live View Count: 3
+2024-05-30 01:35:13,016 - INFO - Live View Count: 3
+2024-05-30 01:35:22,393 - INFO - Live View Count: 3
+2024-05-30 01:35:23,418 - INFO - Live View Count: 3
+2024-05-30 01:35:24,444 - INFO - Live View Count: 3
+2024-05-30 01:35:25,460 - INFO - Live View Count: 3
+2024-05-30 01:35:26,486 - INFO - Live View Count: 3
+2024-05-30 01:35:27,513 - INFO - Live View Count: 3
+2024-05-30 01:35:28,534 - INFO - Live View Count: 3
+2024-05-30 01:35:29,562 - INFO - Live View Count: 3
+2024-05-30 01:35:30,577 - INFO - Live View Count: 3
+2024-05-30 01:35:31,605 - INFO - Live View Count: 3
+2024-05-30 01:35:32,638 - INFO - Live View Count: 3
+2024-05-30 01:35:33,660 - INFO - Live View Count: 3
+2024-05-30 01:35:34,687 - INFO - Live View Count: 3
+2024-06-03 19:01:34,384 - INFO - Live View Count: 1
+2024-06-03 19:01:35,459 - INFO - Live View Count: 1
+2024-06-03 19:01:36,497 - INFO - Live View Count: 1
+2024-06-03 19:01:37,539 - INFO - Live View Count: 1
+2024-06-03 19:01:38,572 - INFO - Live View Count: 1
+2024-06-03 19:01:39,594 - INFO - Live View Count: 1
+2024-06-03 19:01:40,623 - INFO - Live View Count: 1
+2024-06-03 19:01:41,686 - INFO - Live View Count: 1
+2024-06-03 19:01:42,737 - INFO - Live View Count: 1
+2024-06-03 19:01:43,855 - INFO - Live View Count: 1
+2024-06-03 19:01:44,906 - INFO - Live View Count: 1
+2024-06-03 19:01:45,940 - INFO - Live View Count: 1
+2024-06-03 19:01:46,975 - INFO - Live View Count: 1
+2024-06-03 19:01:48,007 - INFO - Live View Count: 1
+2024-06-03 19:01:49,033 - INFO - Live View Count: 1
+2024-06-03 19:01:50,057 - INFO - Live View Count: 1
+2024-06-03 19:01:51,085 - INFO - Live View Count: 1
+2024-06-03 19:01:52,136 - INFO - Live View Count: 1
+2024-06-03 19:01:53,165 - INFO - Live View Count: 1
+2024-06-03 19:01:54,196 - INFO - Live View Count: 1
+2024-06-03 19:01:55,231 - INFO - Live View Count: 1
+2024-06-03 19:01:56,258 - INFO - Live View Count: 1
+2024-06-03 19:01:57,285 - INFO - Live View Count: 1
+2024-06-03 19:01:58,311 - INFO - Live View Count: 1
+2024-06-03 19:01:59,338 - INFO - Live View Count: 1
+2024-06-03 19:02:00,371 - INFO - Live View Count: 1
+2024-06-03 19:02:01,397 - INFO - Live View Count: 1
+2024-06-03 19:02:02,429 - INFO - Live View Count: 1
+2024-06-03 19:02:03,458 - INFO - Live View Count: 1
+2024-06-03 19:02:04,482 - INFO - Live View Count: 1
+2024-06-03 19:02:05,499 - INFO - Live View Count: 1
+2024-06-03 19:02:06,515 - INFO - Live View Count: 1
+2024-06-03 19:02:07,543 - INFO - Live View Count: 1
+2024-06-03 19:02:08,565 - INFO - Live View Count: 1
+2024-06-03 19:02:09,578 - INFO - Live View Count: 1
+2024-06-03 19:02:10,596 - INFO - Live View Count: 1
+2024-06-03 19:02:11,610 - INFO - Live View Count: 1
+2024-06-03 19:02:12,636 - INFO - Live View Count: 1
+2024-06-03 19:02:13,663 - INFO - Live View Count: 1
+2024-06-03 19:02:14,756 - INFO - Live View Count: 1
+2024-06-03 19:02:15,781 - INFO - Live View Count: 1
+2024-06-03 19:02:16,796 - INFO - Live View Count: 1
+2024-06-03 19:02:17,820 - INFO - Live View Count: 1
+2024-06-03 19:02:18,845 - INFO - Live View Count: 1
+2024-06-03 19:02:19,892 - INFO - Live View Count: 1
+2024-06-03 19:02:20,930 - INFO - Live View Count: 1
+2024-06-03 19:02:21,950 - INFO - Live View Count: 1
+2024-06-03 19:02:23,012 - INFO - Live View Count: 1
+2024-06-03 19:02:24,031 - INFO - Live View Count: 1
+2024-06-03 19:02:25,055 - INFO - Live View Count: 1
+2024-06-03 19:02:26,080 - INFO - Live View Count: 1
+2024-06-03 19:02:27,108 - INFO - Live View Count: 1
+2024-06-03 19:02:28,136 - INFO - Live View Count: 1
+2024-06-03 19:02:29,155 - INFO - Live View Count: 1
+2024-06-03 19:02:30,179 - INFO - Live View Count: 1
+2024-06-03 19:02:31,191 - INFO - Live View Count: 1
+2024-06-03 19:02:32,209 - INFO - Live View Count: 1
+2024-06-03 19:02:33,234 - INFO - Live View Count: 1
+2024-06-03 19:02:34,262 - INFO - Live View Count: 1
+2024-06-03 19:02:35,286 - INFO - Live View Count: 1
+2024-06-03 19:02:36,301 - INFO - Live View Count: 1
+2024-06-03 19:02:37,325 - INFO - Live View Count: 1
+2024-06-03 19:02:38,346 - INFO - Live View Count: 1
+2024-06-03 19:02:39,360 - INFO - Live View Count: 1
+2024-06-03 19:02:40,378 - INFO - Live View Count: 1
+2024-06-03 19:02:41,395 - INFO - Live View Count: 1
+2024-06-03 19:02:42,421 - INFO - Live View Count: 1
+2024-06-03 19:02:43,436 - INFO - Live View Count: 1
+2024-06-03 19:02:44,450 - INFO - Live View Count: 1
+2024-06-03 19:02:45,470 - INFO - Live View Count: 1
+2024-06-03 19:02:46,492 - INFO - Live View Count: 1
+2024-06-03 19:02:47,515 - INFO - Live View Count: 1
+2024-06-03 19:02:48,536 - INFO - Live View Count: 1
+2024-06-03 19:02:49,563 - INFO - Live View Count: 1
+2024-06-03 19:02:50,586 - INFO - Live View Count: 1
+2024-06-03 19:02:51,603 - INFO - Live View Count: 1
+2024-06-03 19:02:52,621 - INFO - Live View Count: 1
+2024-06-03 19:02:53,640 - INFO - Live View Count: 1
+2024-06-03 19:02:54,660 - INFO - Live View Count: 1
+2024-06-03 19:02:55,678 - INFO - Live View Count: 1
+2024-06-03 19:02:56,693 - INFO - Live View Count: 1
+2024-06-03 19:02:57,717 - INFO - Live View Count: 1
+2024-06-03 19:02:58,739 - INFO - Live View Count: 1
+2024-06-03 19:02:59,768 - INFO - Live View Count: 1
+2024-06-03 19:03:00,797 - INFO - Live View Count: 1
+2024-06-03 19:03:01,826 - INFO - Live View Count: 1
+2024-06-03 19:03:02,863 - INFO - Live View Count: 1
+2024-06-03 19:03:03,883 - INFO - Live View Count: 1
+2024-06-03 19:03:04,905 - INFO - Live View Count: 1
+2024-06-03 19:03:05,926 - INFO - Live View Count: 1
+2024-06-03 19:03:06,954 - INFO - Live View Count: 1
+2024-06-03 19:03:07,970 - INFO - Live View Count: 1
+2024-06-03 19:03:08,997 - INFO - Live View Count: 1
+2024-06-03 19:03:10,024 - INFO - Live View Count: 1
+2024-06-03 19:03:11,048 - INFO - Live View Count: 1
+2024-06-03 19:03:12,076 - INFO - Live View Count: 1
+2024-06-03 19:03:13,097 - INFO - Live View Count: 1
+2024-06-03 19:03:14,117 - INFO - Live View Count: 1
+2024-06-03 19:03:15,142 - INFO - Live View Count: 1
+2024-06-03 19:03:16,168 - INFO - Live View Count: 1
+2024-06-03 19:03:17,185 - INFO - Live View Count: 1
+2024-06-03 19:03:18,216 - INFO - Live View Count: 1
+2024-06-03 19:03:19,243 - INFO - Live View Count: 1
+2024-06-03 19:03:20,257 - INFO - Live View Count: 1
+2024-06-03 19:03:21,275 - INFO - Live View Count: 1
+2024-06-03 19:03:22,303 - INFO - Live View Count: 1
+2024-06-03 19:03:23,319 - INFO - Live View Count: 1
+2024-06-03 19:03:24,346 - INFO - Live View Count: 1
+2024-06-03 19:03:25,373 - INFO - Live View Count: 1
+2024-06-03 19:03:26,394 - INFO - Live View Count: 1
+2024-06-03 19:03:27,409 - INFO - Live View Count: 1
+2024-06-03 19:03:28,430 - INFO - Live View Count: 1
+2024-06-03 19:03:29,460 - INFO - Live View Count: 1
+2024-06-03 19:03:30,487 - INFO - Live View Count: 1
+2024-06-03 19:03:31,504 - INFO - Live View Count: 1
+2024-06-03 19:03:32,532 - INFO - Live View Count: 1
+2024-06-03 19:03:33,563 - INFO - Live View Count: 1
+2024-06-03 19:03:34,591 - INFO - Live View Count: 1
+2024-06-03 19:03:35,623 - INFO - Live View Count: 1
+2024-06-03 19:03:36,646 - INFO - Live View Count: 1
+2024-06-03 19:03:37,668 - INFO - Live View Count: 1
+2024-06-03 19:03:38,681 - INFO - Live View Count: 1
+2024-06-03 19:03:39,697 - INFO - Live View Count: 1
+2024-06-03 19:03:40,713 - INFO - Live View Count: 1
+2024-06-03 19:03:41,729 - INFO - Live View Count: 1
+2024-06-03 19:03:42,756 - INFO - Live View Count: 1
+2024-06-03 19:03:43,777 - INFO - Live View Count: 1
+2024-06-03 19:03:44,802 - INFO - Live View Count: 1
+2024-06-03 19:03:45,819 - INFO - Live View Count: 1
+2024-06-03 19:03:46,836 - INFO - Live View Count: 1
+2024-06-03 19:03:47,855 - INFO - Live View Count: 1
+2024-06-03 19:03:48,883 - INFO - Live View Count: 1
+2024-06-03 19:03:49,910 - INFO - Live View Count: 1
+2024-06-03 19:03:50,938 - INFO - Live View Count: 1
+2024-06-03 19:03:51,957 - INFO - Live View Count: 1
+2024-06-03 19:03:52,989 - INFO - Live View Count: 1
+2024-06-03 19:03:54,017 - INFO - Live View Count: 1
+2024-06-03 19:03:55,043 - INFO - Live View Count: 1
+2024-06-03 19:03:56,065 - INFO - Live View Count: 1
+2024-06-03 19:03:57,089 - INFO - Live View Count: 1
+2024-06-03 19:03:58,112 - INFO - Live View Count: 1
+2024-06-03 19:03:59,141 - INFO - Live View Count: 1
+2024-06-03 19:04:00,165 - INFO - Live View Count: 1
+2024-06-03 19:04:01,188 - INFO - Live View Count: 1
+2024-06-03 19:04:02,225 - INFO - Live View Count: 1
+2024-06-03 19:04:03,253 - INFO - Live View Count: 1
+2024-06-03 19:04:04,293 - INFO - Live View Count: 1
+2024-06-03 19:04:05,328 - INFO - Live View Count: 1
+2024-06-03 19:04:06,354 - INFO - Live View Count: 1
+2024-06-03 19:04:07,372 - INFO - Live View Count: 1
+2024-06-03 19:04:08,387 - INFO - Live View Count: 1
+2024-06-03 19:04:09,404 - INFO - Live View Count: 1
+2024-06-03 19:04:10,426 - INFO - Live View Count: 1
+2024-06-03 19:04:11,448 - INFO - Live View Count: 1
+2024-06-03 19:04:12,466 - INFO - Live View Count: 1
+2024-06-03 19:04:13,490 - INFO - Live View Count: 1
+2024-06-03 19:04:14,519 - INFO - Live View Count: 1
+2024-06-03 19:04:15,548 - INFO - Live View Count: 1
+2024-06-03 19:04:16,573 - INFO - Live View Count: 1
+2024-06-03 19:04:17,588 - INFO - Live View Count: 1
+2024-06-03 19:04:18,610 - INFO - Live View Count: 1
+2024-06-03 19:04:19,638 - INFO - Live View Count: 1
+2024-06-03 19:04:20,654 - INFO - Live View Count: 1
+2024-06-03 19:04:21,671 - INFO - Live View Count: 1
+2024-06-03 19:04:22,686 - INFO - Live View Count: 1
+2024-06-03 19:04:23,707 - INFO - Live View Count: 1
+2024-06-03 19:04:24,733 - INFO - Live View Count: 1
+2024-06-03 19:04:25,759 - INFO - Live View Count: 1
+2024-06-03 19:04:26,774 - INFO - Live View Count: 1
+2024-06-03 19:04:27,797 - INFO - Live View Count: 1
+2024-06-03 19:04:28,809 - INFO - Live View Count: 1
+2024-06-03 19:04:29,836 - INFO - Live View Count: 1
+2024-06-03 19:04:30,860 - INFO - Live View Count: 1
+2024-06-03 19:04:31,882 - INFO - Live View Count: 1
+2024-06-03 19:04:32,911 - INFO - Live View Count: 1
+2024-06-03 19:04:33,924 - INFO - Live View Count: 1
+2024-06-03 19:04:34,946 - INFO - Live View Count: 1
+2024-06-03 19:04:35,971 - INFO - Live View Count: 1
+2024-06-03 19:04:37,013 - INFO - Live View Count: 12
+2024-06-03 19:04:53,648 - ERROR - Error: Message: Failed to decode response from marionette
+
+2024-06-03 19:06:39,554 - INFO - Live View Count: 2
+2024-06-03 19:06:40,577 - INFO - Live View Count: 2
+2024-06-03 19:06:41,606 - INFO - Live View Count: 2
+2024-06-03 19:06:42,628 - INFO - Live View Count: 2
+2024-06-03 19:06:43,656 - INFO - Live View Count: 2
+2024-06-03 19:06:44,682 - INFO - Live View Count: 2
+2024-06-03 19:06:45,703 - INFO - Live View Count: 2
+2024-06-03 19:06:46,744 - INFO - Live View Count: 2
+2024-06-03 19:06:47,765 - INFO - Live View Count: 2
+2024-06-03 19:06:48,791 - INFO - Live View Count: 2
+2024-06-03 19:06:49,821 - INFO - Live View Count: 2
+2024-06-03 19:06:50,848 - INFO - Live View Count: 2
+2024-06-03 19:06:51,868 - INFO - Live View Count: 2
+2024-06-03 19:06:52,888 - INFO - Live View Count: 2
+2024-06-03 19:06:53,907 - INFO - Live View Count: 2
+2024-06-03 19:06:54,932 - INFO - Live View Count: 2
+2024-06-03 19:06:55,965 - INFO - Live View Count: 2
+2024-06-03 19:06:57,041 - INFO - Live View Count: 2
+2024-06-03 19:06:58,067 - INFO - Live View Count: 2
+2024-06-03 19:06:59,102 - INFO - Live View Count: 2
+2024-06-03 19:07:00,134 - INFO - Live View Count: 2
+2024-06-03 19:07:01,186 - INFO - Live View Count: 2
+2024-06-03 19:07:02,210 - INFO - Live View Count: 2
+2024-06-03 19:07:03,248 - INFO - Live View Count: 2
+2024-06-03 19:07:04,356 - INFO - Live View Count: 2
+2024-06-03 19:07:05,381 - INFO - Live View Count: 2
+2024-06-03 19:07:06,414 - INFO - Live View Count: 2
+2024-06-03 19:07:07,436 - INFO - Live View Count: 2
+2024-06-03 19:07:08,450 - INFO - Live View Count: 2
+2024-06-03 19:07:09,463 - INFO - Live View Count: 2
+2024-06-03 19:07:10,483 - INFO - Live View Count: 2
+2024-06-03 19:07:11,498 - INFO - Live View Count: 2
+2024-06-03 19:07:12,514 - INFO - Live View Count: 2
+2024-06-03 19:07:13,530 - INFO - Live View Count: 2
+2024-06-03 19:07:14,546 - INFO - Live View Count: 2
+2024-06-03 19:07:15,577 - INFO - Live View Count: 2
+2024-06-03 19:07:16,595 - INFO - Live View Count: 2
+2024-06-03 19:07:17,622 - INFO - Live View Count: 2
+2024-06-03 19:07:18,640 - INFO - Live View Count: 2
+2024-06-03 19:07:19,664 - INFO - Live View Count: 2
+2024-06-03 19:07:20,682 - INFO - Live View Count: 2
+2024-06-03 19:07:21,709 - INFO - Live View Count: 2
+2024-06-03 19:07:22,728 - INFO - Live View Count: 2
+2024-06-03 19:07:23,759 - INFO - Live View Count: 2
+2024-06-03 19:07:24,790 - INFO - Live View Count: 2
+2024-06-03 19:07:25,813 - INFO - Live View Count: 2
+2024-06-03 19:07:26,830 - INFO - Live View Count: 2
+2024-06-03 19:07:27,861 - INFO - Live View Count: 2
+2024-06-03 19:07:28,896 - INFO - Live View Count: 2
+2024-06-03 19:07:29,922 - INFO - Live View Count: 2
+2024-06-03 19:07:30,954 - INFO - Live View Count: 2
+2024-06-03 19:07:31,973 - INFO - Live View Count: 2
+2024-06-03 19:07:33,002 - INFO - Live View Count: 2
+2024-06-03 19:07:34,038 - INFO - Live View Count: 2
+2024-06-03 19:07:35,066 - INFO - Live View Count: 2
+2024-06-03 19:07:36,088 - INFO - Live View Count: 2
+2024-06-03 19:07:37,114 - INFO - Live View Count: 2
+2024-06-03 19:07:38,136 - INFO - Live View Count: 2
+2024-06-03 19:07:39,170 - INFO - Live View Count: 2
+2024-06-03 19:07:40,196 - INFO - Live View Count: 2
+2024-06-03 19:07:41,227 - INFO - Live View Count: 2
+2024-06-03 19:07:42,253 - INFO - Live View Count: 2
+2024-06-03 19:07:43,269 - INFO - Live View Count: 2
+2024-06-03 19:07:44,290 - INFO - Live View Count: 2
+2024-06-03 19:07:45,318 - INFO - Live View Count: 2
+2024-06-03 19:07:46,350 - INFO - Live View Count: 2
+2024-06-03 19:07:47,369 - INFO - Live View Count: 2
+2024-06-03 19:07:48,405 - INFO - Live View Count: 2
+2024-06-03 19:07:49,421 - INFO - Live View Count: 2
+2024-06-03 19:07:50,456 - INFO - Live View Count: 2
+2024-06-03 19:07:51,484 - INFO - Live View Count: 2
+2024-06-03 19:07:52,500 - INFO - Live View Count: 2
+2024-06-03 19:07:53,535 - INFO - Live View Count: 2
+2024-06-03 19:07:54,560 - INFO - Live View Count: 2
+2024-06-03 19:07:55,582 - INFO - Live View Count: 2
+2024-06-03 19:07:56,598 - INFO - Live View Count: 2
+2024-06-03 19:07:57,624 - INFO - Live View Count: 2
+2024-06-03 19:07:58,642 - INFO - Live View Count: 2
+2024-06-03 19:07:59,661 - INFO - Live View Count: 2
+2024-06-03 19:08:00,693 - INFO - Live View Count: 2
+2024-06-03 19:08:01,714 - INFO - Live View Count: 2
+2024-06-03 19:08:02,727 - INFO - Live View Count: 2
+2024-06-03 19:08:03,751 - INFO - Live View Count: 2
+2024-06-03 19:08:04,775 - INFO - Live View Count: 2
+2024-06-03 19:08:05,807 - INFO - Live View Count: 2
+2024-06-03 19:08:06,836 - INFO - Live View Count: 2
+2024-06-03 19:08:07,865 - INFO - Live View Count: 2
+2024-06-03 19:08:08,890 - INFO - Live View Count: 2
+2024-06-03 19:08:09,927 - INFO - Live View Count: 12
+2024-06-03 19:08:34,419 - INFO - Live View Count: 1
+2024-06-03 19:08:35,446 - INFO - Live View Count: 1
+2024-06-03 19:08:36,480 - INFO - Live View Count: 1
+2024-06-03 19:08:37,506 - INFO - Live View Count: 1
+2024-06-03 19:08:38,548 - INFO - Live View Count: 1
+2024-06-03 19:08:39,566 - INFO - Live View Count: 1
+2024-06-03 19:08:40,595 - INFO - Live View Count: 1
+2024-06-03 19:08:41,616 - INFO - Live View Count: 1
+2024-06-03 19:08:42,647 - INFO - Live View Count: 1
+2024-06-03 19:08:43,679 - INFO - Live View Count: 1
+2024-06-03 19:08:44,705 - INFO - Live View Count: 1
+2024-06-03 19:08:45,726 - INFO - Live View Count: 1
+2024-06-03 19:08:46,754 - INFO - Live View Count: 1
+2024-06-03 19:08:47,791 - INFO - Live View Count: 1
+2024-06-03 19:08:48,811 - INFO - Live View Count: 1
+2024-06-03 19:08:49,834 - INFO - Live View Count: 1
+2024-06-03 19:08:50,856 - INFO - Live View Count: 1
+2024-06-03 19:08:51,880 - INFO - Live View Count: 1
+2024-06-03 19:08:52,903 - INFO - Live View Count: 1
+2024-06-03 19:08:53,920 - INFO - Live View Count: 1
+2024-06-03 19:08:54,938 - INFO - Live View Count: 1
+2024-06-03 19:08:55,956 - INFO - Live View Count: 1
+2024-06-03 19:08:56,970 - INFO - Live View Count: 1
+2024-06-03 19:08:57,984 - INFO - Live View Count: 1
+2024-06-03 19:08:59,031 - INFO - Live View Count: 1
+2024-06-03 19:09:00,059 - INFO - Live View Count: 1
+2024-06-03 19:09:01,079 - INFO - Live View Count: 1
+2024-06-03 19:09:02,092 - INFO - Live View Count: 1
+2024-06-03 19:09:03,118 - INFO - Live View Count: 1
+2024-06-03 19:09:04,144 - INFO - Live View Count: 1
+2024-06-03 19:09:05,157 - INFO - Live View Count: 1
+2024-06-03 19:09:06,194 - INFO - Live View Count: 1
+2024-06-03 19:09:07,215 - INFO - Live View Count: 1
+2024-06-03 19:09:08,233 - INFO - Live View Count: 1
+2024-06-03 19:09:09,258 - INFO - Live View Count: 1
+2024-06-03 19:09:10,298 - INFO - Live View Count: 1
+2024-06-03 19:09:11,317 - INFO - Live View Count: 1
+2024-06-03 19:09:12,343 - INFO - Live View Count: 1
+2024-06-03 19:09:13,366 - INFO - Live View Count: 1
+2024-06-03 19:09:14,384 - INFO - Live View Count: 1
+2024-06-03 19:09:15,406 - INFO - Live View Count: 1
+2024-06-03 19:09:16,431 - INFO - Live View Count: 1
+2024-06-03 19:09:17,453 - INFO - Live View Count: 1
+2024-06-03 19:09:18,469 - INFO - Live View Count: 1
+2024-06-03 19:09:19,501 - INFO - Live View Count: 1
+2024-06-03 19:09:20,526 - INFO - Live View Count: 1
+2024-06-03 19:09:21,563 - INFO - Live View Count: 1
+2024-06-03 19:09:22,586 - INFO - Live View Count: 1
+2024-06-03 19:09:23,621 - INFO - Live View Count: 1
+2024-06-03 19:09:24,642 - INFO - Live View Count: 1
+2024-06-03 19:09:25,679 - INFO - Live View Count: 1
+2024-06-03 19:09:26,719 - INFO - Live View Count: 1
+2024-06-03 19:09:27,745 - INFO - Live View Count: 1
+2024-06-03 19:09:28,791 - INFO - Live View Count: 1
+2024-06-03 19:09:29,822 - INFO - Live View Count: 1
+2024-06-03 19:09:30,867 - INFO - Live View Count: 1
+2024-06-03 19:09:31,899 - INFO - Live View Count: 1
+2024-06-03 19:09:32,918 - INFO - Live View Count: 1
+2024-06-03 19:09:33,950 - INFO - Live View Count: 1
+2024-06-03 19:09:34,980 - INFO - Live View Count: 1
+2024-06-03 19:09:36,006 - INFO - Live View Count: 1
+2024-06-03 19:09:37,042 - INFO - Live View Count: 1
+2024-06-03 19:09:38,070 - INFO - Live View Count: 1
+2024-06-03 19:09:39,099 - INFO - Live View Count: 1
+2024-06-03 19:09:40,127 - INFO - Live View Count: 1
+2024-06-03 19:09:41,160 - INFO - Live View Count: 1
+2024-06-03 19:09:42,190 - INFO - Live View Count: 1
+2024-06-03 19:09:43,220 - INFO - Live View Count: 1
+2024-06-03 19:09:44,261 - INFO - Live View Count: 1
+2024-06-03 19:09:45,292 - INFO - Live View Count: 1
+2024-06-03 19:09:46,326 - INFO - Live View Count: 1
+2024-06-03 19:09:47,345 - INFO - Live View Count: 1
+2024-06-03 19:09:48,361 - INFO - Live View Count: 1
+2024-06-03 19:09:49,440 - INFO - Live View Count: 1
+2024-06-03 19:09:50,475 - INFO - Live View Count: 1
+2024-06-03 19:09:51,499 - INFO - Live View Count: 1
+2024-06-03 19:09:52,535 - INFO - Live View Count: 1
+2024-06-03 19:09:53,560 - INFO - Live View Count: 1
+2024-06-03 19:09:54,581 - INFO - Live View Count: 1
+2024-06-03 19:09:55,604 - INFO - Live View Count: 1
+2024-06-03 19:09:56,622 - INFO - Live View Count: 1
+2024-06-03 19:09:57,643 - INFO - Live View Count: 1
+2024-06-03 19:09:58,670 - INFO - Live View Count: 1
+2024-06-03 19:09:59,702 - INFO - Live View Count: 1
+2024-06-03 19:10:00,738 - INFO - Live View Count: 1
+2024-06-03 19:10:01,762 - INFO - Live View Count: 1
+2024-06-03 19:10:02,785 - INFO - Live View Count: 1
+2024-06-03 19:10:03,815 - INFO - Live View Count: 1
+2024-06-03 19:10:04,840 - INFO - Live View Count: 1
+2024-06-03 19:10:05,859 - INFO - Live View Count: 1
+2024-06-03 19:10:06,896 - INFO - Live View Count: 1
+2024-06-03 19:10:07,908 - INFO - Live View Count: 1
+2024-06-03 19:10:08,931 - INFO - Live View Count: 1
+2024-06-03 19:10:09,957 - INFO - Live View Count: 1
+2024-06-03 19:10:10,976 - INFO - Live View Count: 1
+2024-06-03 19:10:11,997 - INFO - Live View Count: 1
+2024-06-03 19:10:13,019 - INFO - Live View Count: 1
+2024-06-03 19:10:14,056 - INFO - Live View Count: 1
+2024-06-03 19:10:15,071 - INFO - Live View Count: 1
+2024-06-03 19:10:16,097 - INFO - Live View Count: 1
+2024-06-03 19:10:17,113 - INFO - Live View Count: 1
+2024-06-03 19:10:18,141 - INFO - Live View Count: 1
+2024-06-03 19:10:19,173 - INFO - Live View Count: 1
+2024-06-03 19:10:20,196 - INFO - Live View Count: 1
+2024-06-03 19:10:21,210 - INFO - Live View Count: 1
+2024-06-03 19:10:22,223 - INFO - Live View Count: 1
+2024-06-03 19:10:23,335 - ERROR - Error retrieving view count: Message: Failed to decode response from marionette
+
+2024-06-03 19:10:24,337 - ERROR - Error retrieving view count: Message: Tried to run command without establishing a connection
+
+2024-06-03 19:17:46,447 - INFO - Live View Count: 1
+2024-06-03 19:17:47,506 - INFO - Live View Count: 1
+2024-06-03 19:17:48,522 - INFO - Live View Count: 1
+2024-06-03 19:17:49,540 - INFO - Live View Count: 1
+2024-06-03 19:17:50,564 - INFO - Live View Count: 1
+2024-06-03 19:17:51,586 - INFO - Live View Count: 1
+2024-06-03 19:17:52,605 - INFO - Live View Count: 1
+2024-06-03 19:17:53,631 - INFO - Live View Count: 1
+2024-06-03 19:17:54,654 - INFO - Live View Count: 1
+2024-06-03 19:17:55,682 - INFO - Live View Count: 1
+2024-06-03 19:17:56,707 - INFO - Live View Count: 1
+2024-06-03 19:17:57,722 - INFO - Live View Count: 1
+2024-06-03 19:17:58,740 - INFO - Live View Count: 1
+2024-06-03 19:17:59,756 - INFO - Live View Count: 1
+2024-06-03 19:18:00,779 - INFO - Live View Count: 1
+2024-06-03 19:18:01,802 - INFO - Live View Count: 1
+2024-06-03 19:18:02,823 - INFO - Live View Count: 1
+2024-06-03 19:18:03,850 - INFO - Live View Count: 1
+2024-06-03 19:18:04,869 - INFO - Live View Count: 1
+2024-06-03 19:18:05,891 - INFO - Live View Count: 1
+2024-06-03 19:18:06,912 - INFO - Live View Count: 1
+2024-06-03 19:18:07,942 - INFO - Live View Count: 1
+2024-06-03 19:18:08,964 - INFO - Live View Count: 1
+2024-06-03 19:18:09,986 - INFO - Live View Count: 1
+2024-06-03 19:18:11,006 - INFO - Live View Count: 1
+2024-06-03 19:18:12,027 - INFO - Live View Count: 1
+2024-06-03 19:18:13,044 - INFO - Live View Count: 1
+2024-06-03 19:18:14,073 - INFO - Live View Count: 1
+2024-06-03 19:18:15,107 - INFO - Live View Count: 1
+2024-06-03 19:18:16,122 - INFO - Live View Count: 1
+2024-06-03 19:18:17,145 - INFO - Live View Count: 1
+2024-06-03 19:18:18,164 - INFO - Live View Count: 1
+2024-06-03 19:18:19,181 - INFO - Live View Count: 1
+2024-06-03 19:18:20,210 - INFO - Live View Count: 1
+2024-06-03 19:18:21,235 - INFO - Live View Count: 1
+2024-06-03 19:18:22,255 - INFO - Live View Count: 1
+2024-06-03 19:18:23,282 - INFO - Live View Count: 1
+2024-06-03 19:18:24,297 - INFO - Live View Count: 1
+2024-06-03 19:18:25,314 - INFO - Live View Count: 1
+2024-06-03 19:18:26,340 - INFO - Live View Count: 1
+2024-06-03 19:18:27,358 - INFO - Live View Count: 1
+2024-06-03 19:18:28,371 - INFO - Live View Count: 1
+2024-06-03 19:18:29,385 - INFO - Live View Count: 1
+2024-06-03 19:18:30,409 - INFO - Live View Count: 1
+2024-06-03 19:18:31,424 - INFO - Live View Count: 1
+2024-06-03 19:18:32,449 - INFO - Live View Count: 1
+2024-06-03 19:18:33,469 - INFO - Live View Count: 1
+2024-06-03 19:18:34,485 - INFO - Live View Count: 1
+2024-06-03 19:18:35,503 - INFO - Live View Count: 1
+2024-06-03 19:18:36,526 - INFO - Live View Count: 1
+2024-06-03 19:18:37,543 - INFO - Live View Count: 1
+2024-06-03 19:18:38,568 - INFO - Live View Count: 1
+2024-06-03 19:18:39,586 - INFO - Live View Count: 1
+2024-06-03 19:18:40,614 - INFO - Live View Count: 1
+2024-06-03 19:18:41,640 - INFO - Live View Count: 1
+2024-06-03 19:18:42,662 - INFO - Live View Count: 1
+2024-06-03 19:18:43,686 - INFO - Live View Count: 1
+2024-06-03 19:18:44,714 - INFO - Live View Count: 1
+2024-06-03 19:18:45,739 - INFO - Live View Count: 1
+2024-06-03 19:18:46,755 - INFO - Live View Count: 1
+2024-06-03 19:18:47,777 - INFO - Live View Count: 1
+2024-06-03 19:18:48,804 - INFO - Live View Count: 1
+2024-06-03 19:18:49,825 - INFO - Live View Count: 1
+2024-06-03 19:18:50,843 - INFO - Live View Count: 1
+2024-06-03 19:18:51,872 - INFO - Live View Count: 1
+2024-06-03 19:18:52,898 - INFO - Live View Count: 1
+2024-06-03 19:18:53,923 - INFO - Live View Count: 1
+2024-06-03 19:18:54,947 - INFO - Live View Count: 1
+2024-06-03 19:18:55,969 - INFO - Live View Count: 1
+2024-06-03 19:18:56,998 - INFO - Live View Count: 1
+2024-06-03 19:18:58,027 - INFO - Live View Count: 1
+2024-06-03 19:18:59,056 - INFO - Live View Count: 1
+2024-06-03 19:19:00,078 - INFO - Live View Count: 1
+2024-06-03 19:19:01,094 - INFO - Live View Count: 1
+2024-06-03 19:19:02,121 - INFO - Live View Count: 1
+2024-06-03 19:19:03,147 - INFO - Live View Count: 1
+2024-06-03 19:19:04,172 - INFO - Live View Count: 1
+2024-06-03 19:19:05,191 - INFO - Live View Count: 1
+2024-06-03 19:19:06,205 - INFO - Live View Count: 1
+2024-06-03 19:19:07,233 - INFO - Live View Count: 1
+2024-06-03 19:19:08,259 - INFO - Live View Count: 1
+2024-06-03 19:19:09,280 - INFO - Live View Count: 1
+2024-06-03 19:19:10,297 - INFO - Live View Count: 1
+2024-06-03 19:19:11,320 - INFO - Live View Count: 1
+2024-06-03 19:19:12,350 - INFO - Live View Count: 1
+2024-06-03 19:19:13,370 - INFO - Live View Count: 1
+2024-06-03 19:19:14,398 - INFO - Live View Count: 1
+2024-06-03 19:19:15,431 - INFO - Live View Count: 1
+2024-06-03 19:19:16,457 - INFO - Live View Count: 1
+2024-06-03 19:19:17,480 - INFO - Live View Count: 1
+2024-06-03 19:19:18,502 - INFO - Live View Count: 1
+2024-06-03 19:19:19,548 - INFO - Live View Count: 1
+2024-06-03 19:19:20,575 - INFO - Live View Count: 1
+2024-06-03 19:19:21,597 - INFO - Live View Count: 1
+2024-06-03 19:19:22,633 - INFO - Live View Count: 1
+2024-06-03 19:19:23,659 - INFO - Live View Count: 1
+2024-06-03 19:19:24,689 - INFO - Live View Count: 1
+2024-06-03 19:19:25,712 - INFO - Live View Count: 1
+2024-06-03 19:19:26,745 - INFO - Live View Count: 1
+2024-06-03 19:19:27,776 - INFO - Live View Count: 1
+2024-06-03 19:19:28,804 - INFO - Live View Count: 1
+2024-06-03 19:19:29,830 - INFO - Live View Count: 1
+2024-06-03 19:19:30,856 - INFO - Live View Count: 1
+2024-06-03 19:19:31,883 - INFO - Live View Count: 1
+2024-06-03 19:19:32,911 - INFO - Live View Count: 1
+2024-06-03 19:19:33,928 - INFO - Live View Count: 1
+2024-06-03 19:19:34,952 - INFO - Live View Count: 1
+2024-06-03 19:19:35,979 - INFO - Live View Count: 1
+2024-06-03 19:19:37,001 - INFO - Live View Count: 1
+2024-06-03 19:19:38,017 - INFO - Live View Count: 1
+2024-06-03 19:19:39,043 - INFO - Live View Count: 1
+2024-06-03 19:19:40,071 - INFO - Live View Count: 1
+2024-06-03 19:19:41,097 - INFO - Live View Count: 1
+2024-06-03 19:19:42,126 - INFO - Live View Count: 1
+2024-06-03 19:19:43,159 - INFO - Live View Count: 1
+2024-06-03 19:19:44,189 - INFO - Live View Count: 1
+2024-06-03 19:19:45,206 - INFO - Live View Count: 1
+2024-06-03 19:19:46,227 - INFO - Live View Count: 1
+2024-06-03 19:19:47,250 - INFO - Live View Count: 1
+2024-06-03 19:19:48,272 - INFO - Live View Count: 1
+2024-06-03 19:19:49,298 - INFO - Live View Count: 1
+2024-06-03 19:19:50,315 - INFO - Live View Count: 1
+2024-06-03 19:19:51,330 - INFO - Live View Count: 1
+2024-06-03 19:19:52,349 - INFO - Live View Count: 1
+2024-06-03 19:19:53,372 - INFO - Live View Count: 1
+2024-06-03 19:19:54,390 - INFO - Live View Count: 1
+2024-06-03 19:19:55,404 - INFO - Live View Count: 1
+2024-06-03 19:19:56,423 - INFO - Live View Count: 1
+2024-06-03 19:19:57,451 - INFO - Live View Count: 1
+2024-06-03 19:19:58,526 - INFO - Live View Count: 1
+2024-06-03 19:19:59,550 - INFO - Live View Count: 1
+2024-06-03 19:20:00,666 - INFO - Live View Count: 1
+2024-06-03 19:20:01,693 - INFO - Live View Count: 1
+2024-06-03 19:20:02,717 - INFO - Live View Count: 1
+2024-06-03 19:20:03,741 - INFO - Live View Count: 1
+2024-06-03 19:20:04,758 - INFO - Live View Count: 1
+2024-06-03 19:20:05,788 - INFO - Live View Count: 1
+2024-06-03 19:20:06,813 - INFO - Live View Count: 1
+2024-06-03 19:20:07,835 - INFO - Live View Count: 1
+2024-06-03 19:20:08,923 - INFO - Live View Count: 1
+2024-06-03 19:20:09,946 - INFO - Live View Count: 1
+2024-06-03 19:20:10,995 - INFO - Live View Count: 1
+2024-06-03 19:20:12,020 - INFO - Live View Count: 1
+2024-06-03 19:20:13,052 - INFO - Live View Count: 1
+2024-06-03 19:20:14,067 - INFO - Live View Count: 1
+2024-06-03 19:20:15,092 - INFO - Live View Count: 1
+2024-06-03 19:20:16,115 - INFO - Live View Count: 1
+2024-06-03 19:20:17,148 - INFO - Live View Count: 1
+2024-06-03 19:20:18,170 - INFO - Live View Count: 1
+2024-06-03 19:20:19,215 - INFO - Live View Count: 1
+2024-06-03 19:20:20,244 - INFO - Live View Count: 1
+2024-06-03 19:20:21,271 - INFO - Live View Count: 1
+2024-06-03 19:20:22,288 - INFO - Live View Count: 1
+2024-06-03 19:20:23,309 - INFO - Live View Count: 1
+2024-06-03 19:20:24,325 - INFO - Live View Count: 1
+2024-06-03 19:20:25,359 - INFO - Live View Count: 1
+2024-06-03 19:20:26,383 - INFO - Live View Count: 1
+2024-06-03 19:20:27,400 - INFO - Live View Count: 1
+2024-06-03 19:20:28,429 - INFO - Live View Count: 1
+2024-06-03 19:20:29,452 - INFO - Live View Count: 1
+2024-06-03 19:20:30,469 - INFO - Live View Count: 1
+2024-06-03 19:20:31,484 - INFO - Live View Count: 1
+2024-06-03 19:20:32,511 - INFO - Live View Count: 1
+2024-06-03 19:20:33,528 - INFO - Live View Count: 1
+2024-06-03 19:20:34,542 - INFO - Live View Count: 1
+2024-06-03 19:20:35,561 - INFO - Live View Count: 1
+2024-06-03 19:20:36,586 - INFO - Live View Count: 1
+2024-06-03 19:20:37,608 - INFO - Live View Count: 1
+2024-06-03 19:20:38,631 - INFO - Live View Count: 1
+2024-06-03 19:20:39,654 - INFO - Live View Count: 1
+2024-06-03 19:20:40,682 - INFO - Live View Count: 1
+2024-06-03 19:20:41,714 - INFO - Live View Count: 1
+2024-06-03 19:20:42,736 - INFO - Live View Count: 1
+2024-06-03 19:20:43,757 - INFO - Live View Count: 1
+2024-06-03 19:20:44,787 - INFO - Live View Count: 1
+2024-06-03 19:20:45,807 - INFO - Live View Count: 1
+2024-06-03 19:20:46,844 - INFO - Live View Count: 1
+2024-06-03 19:20:47,867 - INFO - Live View Count: 1
+2024-06-03 19:20:48,939 - INFO - Live View Count: 12
+2024-06-03 19:24:47,162 - ERROR - No valid proxies found. Exiting.
+2024-06-03 19:32:38,547 - ERROR - No valid proxies found. Exiting.
+2024-06-03 19:34:30,175 - ERROR - No valid proxies found. Exiting.
+2024-06-03 19:38:52,981 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:38:53,248 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:38:58,255 - WARNING - Proxy 203.126.118.38 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C63C8649A0>, 'Connection to 203.126.118.38 timed out. (connect timeout=5)'))
+2024-06-03 19:39:03,593 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:39:04,114 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:39:09,117 - WARNING - Proxy 203.126.118.38 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FC785656F0>, 'Connection to 203.126.118.38 timed out. (connect timeout=5)'))
+2024-06-03 19:39:14,121 - WARNING - Proxy 203.126.118.38 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FC78565F30>, 'Connection to 203.126.118.38 timed out. (connect timeout=5)'))
+2024-06-03 19:39:19,129 - WARNING - Proxy 203.141.131.66 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FC78566620>, 'Connection to 203.141.131.66 timed out. (connect timeout=5)'))
+2024-06-03 19:39:24,131 - WARNING - Proxy 203.141.131.66 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FC785662F0>, 'Connection to 203.141.131.66 timed out. (connect timeout=5)'))
+2024-06-03 19:39:29,717 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:39:29,925 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:39:34,933 - WARNING - Proxy 203.126.118.38 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B2776656F0>, 'Connection to 203.126.118.38 timed out. (connect timeout=5)'))
+2024-06-03 19:39:39,942 - WARNING - Proxy 203.126.118.38 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277665F30>, 'Connection to 203.126.118.38 timed out. (connect timeout=5)'))
+2024-06-03 19:39:44,961 - WARNING - Proxy 203.141.131.66 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277666620>, 'Connection to 203.141.131.66 timed out. (connect timeout=5)'))
+2024-06-03 19:39:49,973 - WARNING - Proxy 203.141.131.66 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B2776662F0>, 'Connection to 203.141.131.66 timed out. (connect timeout=5)'))
+2024-06-03 19:39:54,980 - WARNING - Proxy 203.141.131.66 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277665C60>, 'Connection to 203.141.131.66 timed out. (connect timeout=5)'))
+2024-06-03 19:39:59,995 - WARNING - Proxy 108.179.34.214 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B2776650F0>, 'Connection to 108.179.34.214 timed out. (connect timeout=5)'))
+2024-06-03 19:40:05,010 - WARNING - Proxy 108.179.34.214 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277666D10>, 'Connection to 108.179.34.214 timed out. (connect timeout=5)'))
+2024-06-03 19:40:10,023 - WARNING - Proxy 81.138.71.238 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277667400>, 'Connection to 81.138.71.238 timed out. (connect timeout=5)'))
+2024-06-03 19:40:15,038 - WARNING - Proxy 81.138.71.238 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277667AF0>, 'Connection to 81.138.71.238 timed out. (connect timeout=5)'))
+2024-06-03 19:40:20,053 - WARNING - Proxy 210.118.170.15 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B2776679A0>, 'Connection to 210.118.170.15 timed out. (connect timeout=5)'))
+2024-06-03 19:40:25,061 - WARNING - Proxy 210.118.170.15 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B2776672B0>, 'Connection to 210.118.170.15 timed out. (connect timeout=5)'))
+2024-06-03 19:40:30,067 - WARNING - Proxy 220.110.210.114 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277665990>, 'Connection to 220.110.210.114 timed out. (connect timeout=5)'))
+2024-06-03 19:40:35,083 - WARNING - Proxy 220.110.210.114 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B277664D00>, 'Connection to 220.110.210.114 timed out. (connect timeout=5)'))
+2024-06-03 19:40:38,214 - WARNING - Proxy 222.122.43.43 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B277665E70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2024-06-03 19:40:41,332 - WARNING - Proxy 222.122.43.43 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B2776667D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2024-06-03 19:40:44,013 - WARNING - Proxy 109.106.238.225 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B2776B8220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2024-06-03 19:40:46,726 - WARNING - Proxy 109.106.238.225 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B277665EA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2024-06-03 19:40:49,421 - WARNING - Proxy 196.203.86.4 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B277664D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2024-06-03 19:40:52,099 - WARNING - Proxy 196.203.86.4 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B2776671C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2024-06-03 19:40:57,108 - WARNING - Proxy 140.117.167.174 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B2776678B0>, 'Connection to 140.117.167.174 timed out. (connect timeout=5)'))
+2024-06-03 19:43:05,810 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:43:05,980 - WARNING - Proxy 204.106.240.53 is not working. Skipping... Error: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 405 Method Not Allowed')))
+2024-06-03 19:43:15,114 - INFO - Script content:
+import os
+import time
+import logging
+import random
+import asyncio
+import requests
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from fake_useragent import UserAgent
+
+# Enhanced Logging (More informative messages)
+logging.basicConfig(
+    filename="kick_view_count.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
+# Configuration (Move to separate file for better organization)
+KICK_URL = "https://kick.com/slicka"
+GECKODRIVER_PATH = "C:\\Users\\Amz\\Desktop\\geckodriver.exe"  # Update with your actual path
+PROXY_FILE_PATH = "C:\\Users\\Amz\\Desktop\\PYTHON\\dns_servers.txt"
+TARGET_VIEW_COUNT = 100
+REFRESH_INTERVAL = 2  # Seconds
+
+# Proxy Handling
+async def load_valid_proxies(filepath):
+    valid_proxies = []
+    with open(filepath, "r") as file:
+        for proxy in file:
+            proxy = proxy.strip()
+            if await is_proxy_working(proxy):
+                valid_proxies.append(proxy)
+    return valid_proxies
+
+
+async def is_proxy_working(proxy):
+    try:
+        response = await asyncio.to_thread(
+            requests.get, "https://www.google.com", proxies={"http": proxy, "https": proxy}, timeout=5
+        )
+        return response.status_code == 200
+    except:
+        return False
+
+
+# Main View Bot Logic
+async def main():
+    # Validate Proxies Before Starting
+    valid_proxies = await load_valid_proxies(PROXY_FILE_PATH)
+    if not valid_proxies:
+        logging.error("No valid proxies found. Exiting.")
+        return
+
+    # Initialize UserAgent for random User-Agent selection
+    ua = UserAgent()
+
+    # Start Browser with Random Proxy and User Agent
+    while True:
+        if not valid_proxies:  # Check if any valid proxies left
+            logging.error("No more working proxies available. Exiting.")
+            return
+
+        proxy = random.choice(valid_proxies)
+        user_agent = ua.random
+
+        # Set up browser options with proxy and user agent
+        options = Options()
+        options.headless = True
+        options.set_preference("permissions.default.image", 2)
+        options.set_preference("general.useragent.override", user_agent)
+        webdriver.DesiredCapabilities.FIREFOX["proxy"] = {
+            "httpProxy": proxy,
+            "ftpProxy": proxy,
+            "sslProxy": proxy,
+            "proxyType": "MANUAL",
+        }
+
+        # Initialize Firefox WebDriver
+        with webdriver.Firefox(executable_path=GECKODRIVER_PATH, options=options) as driver:
+            # Open multiple tabs
+            for _ in range(6):
+                driver.execute_script("window.open('" + KICK_URL + "')")
+
+            # Refresh pages every 2 seconds until target view count is reached
+            while True:
+                try:
+                    # Wait for the view count elements to be present
+                    view_count_elements = WebDriverWait(driver, 10).until(
+                        EC.presence_of_all_elements_located((By.CLASS_NAME, "odometer-value"))
+                    )
+
+                    # Concatenate the text of all view count elements
+                    view_count_str = "".join([elem.text for elem in view_count_elements])
+
+                    # Remove commas and convert view count to integer
+                    try:
+                        view_count = int(view_count_str.replace(",", ""))
+                    except ValueError:
+                        logging.warning(f"Invalid view count format: {view_count_str}")
+                        continue  # Retry next loop iteration
+
+                    # Log the live view count
+                    logging.info(f"Live View Count: {view_count}")
+
+                    if view_count >= TARGET_VIEW_COUNT:
+                        break  # Exit loop if target view count is reached
+
+                except TimeoutException:
+                    logging.warning("View count element not found for proxy: {proxy}. Skipping...")
+                    break  # Exit loop if view count element not found
+                except Exception as e:
+                    logging.error(f"Error retrieving view count for proxy: {proxy}. Skipping... Error: {e}")
+                    break  # Exit loop if error retrieving view count
+
+                # Refresh all pages every 2 seconds
+                for tab in driver.window_handles:
+                    driver.switch_to.window(tab)
+                    driver.refresh()
+                    await asyncio.sleep(REFRESH_INTERVAL)
+
+        # Remove proxy if it fails
+        if not await is_proxy_working(proxy):
+            valid_proxies.remove(proxy)
+
+        # Wait for refresh interval before trying with another proxy
+        await asyncio.sleep(REFRESH_INTERVAL)
+
+
+# Execute main function if script is run directly
+if __name__ == "__main__":
+    # Prompt to log the script
+    log_script = input("Do you want to log the whole script? (yes/no): ")
+    if log_script.lower() == "yes":
+        with open(__file__, "r") as script_file:
+            script_content = script_file.read()
+            logging.info("Script content:\n" + script_content)
+    
+    # Run the main function
+    asyncio.run(main())
+
+2024-06-03 20:52:29,587 - ERROR - No valid proxies found. Exiting.
+2024-06-03 20:55:00,583 - INFO - Live View Count: 1
+2024-06-03 20:55:01,611 - INFO - Live View Count: 1
+2024-06-03 20:55:02,643 - INFO - Live View Count: 1
+2024-06-03 20:55:04,731 - INFO - Live View Count: 209
+2024-06-03 21:00:40,089 - INFO - Live View Count: 1
+2024-06-03 21:00:41,125 - INFO - Live View Count: 1
+2024-06-03 21:00:42,148 - INFO - Live View Count: 1
+2024-06-03 21:00:43,177 - INFO - Live View Count: 1
+2024-06-03 21:00:44,204 - INFO - Live View Count: 1
+2024-06-03 21:00:45,225 - INFO - Live View Count: 1
+2024-06-03 21:00:46,251 - INFO - Live View Count: 1
+2024-06-03 21:00:47,266 - INFO - Live View Count: 1
+2024-06-03 21:00:48,284 - INFO - Live View Count: 1
+2024-06-03 21:00:49,306 - INFO - Live View Count: 1
+2024-06-03 21:00:50,326 - INFO - Live View Count: 1
+2024-06-03 21:00:51,351 - INFO - Live View Count: 1
+2024-06-03 21:00:52,374 - INFO - Live View Count: 1
+2024-06-03 21:00:53,398 - INFO - Live View Count: 1
+2024-06-03 21:00:54,415 - INFO - Live View Count: 1
+2024-06-03 21:00:55,442 - INFO - Live View Count: 1
+2024-06-03 21:00:56,456 - INFO - Live View Count: 1
+2024-06-03 21:00:57,472 - INFO - Live View Count: 1
+2024-06-03 21:00:58,492 - INFO - Live View Count: 1
+2024-06-03 21:00:59,518 - INFO - Live View Count: 1
+2024-06-03 21:01:00,544 - INFO - Live View Count: 1
+2024-06-03 21:01:01,562 - INFO - Live View Count: 1
+2024-06-03 21:01:03,035 - ERROR - Error retrieving view count: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1584:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-06-03 21:01:04,121 - ERROR - Error retrieving view count: Message: Failed to decode response from marionette
+
+2024-06-03 21:07:27,125 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:09:03,503 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:09:08,758 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:09:14,704 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:09:17,677 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:09:51,046 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:09:51,846 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:10:28,028 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:12:28,415 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:12:45,335 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:13:00,619 - INFO - Live View Count: 1
+2024-06-03 21:13:15,950 - INFO - Live View Count: 1
+2024-06-03 21:13:31,076 - INFO - Live View Count: 1
+2024-06-03 21:13:46,076 - INFO - Live View Count: 1
+2024-06-03 21:14:00,645 - INFO - Live View Count: 1
+2024-06-03 21:14:15,285 - INFO - Live View Count: 1
+2024-06-03 21:14:30,012 - INFO - Live View Count: 1
+2024-06-03 21:14:44,801 - INFO - Live View Count: 1
+2024-06-03 21:14:59,345 - INFO - Live View Count: 1
+2024-06-03 21:15:13,969 - INFO - Live View Count: 1
+2024-06-03 21:15:36,636 - INFO - Live View Count: 5
+2024-06-03 21:15:44,576 - INFO - Live View Count: 5
+2024-06-03 21:16:06,411 - INFO - Live View Count: 5
+2024-06-03 21:16:31,178 - INFO - Live View Count: 1
+2024-06-03 21:16:55,333 - INFO - Live View Count: 1
+2024-06-03 21:17:04,843 - INFO - Live View Count: 1
+2024-06-03 21:17:26,771 - ERROR - Error: Message: Failed to decode response from marionette
+
+2024-06-03 21:37:18,864 - INFO - Live View Count: 2
+2024-06-03 21:37:26,269 - INFO - Live View Count: 2
+2024-06-03 21:37:47,550 - INFO - Live View Count: 2
+2024-06-03 21:38:09,515 - INFO - Live View Count: 2
+2024-06-03 21:38:30,165 - INFO - Live View Count: 2
+2024-06-03 21:38:52,581 - ERROR - Error: Message: Failed to decode response from marionette
+
+2024-06-03 21:39:23,436 - INFO - Live View Count: 2
+2024-06-03 21:39:30,181 - INFO - Live View Count: 2
+2024-06-03 21:39:50,361 - INFO - Live View Count: 5
+2024-06-03 21:40:10,144 - INFO - Live View Count: 5
+2024-06-03 21:40:33,620 - INFO - Live View Count: 20
+2024-06-03 21:41:16,656 - INFO - Live View Count: 20
+2024-06-03 21:41:24,758 - INFO - Live View Count: 9
+2024-06-03 21:41:45,240 - INFO - Live View Count: 9
+2024-06-03 21:42:09,161 - INFO - Live View Count: 9
+2024-06-03 21:42:31,347 - INFO - Live View Count: 6
+2024-06-03 21:42:55,452 - INFO - Live View Count: 6
+2024-06-03 21:43:16,568 - INFO - Live View Count: 6
+2024-06-03 21:43:37,998 - INFO - Live View Count: 6
+2024-06-03 21:43:58,611 - INFO - Live View Count: 6
+2024-06-03 21:44:21,348 - INFO - Live View Count: 6
+2024-06-03 21:44:58,491 - INFO - Live View Count: 3
+2024-06-03 21:45:14,504 - INFO - Live View Count: 3
+2024-06-03 21:45:44,157 - INFO - Live View Count: 21
+2024-06-03 21:46:08,630 - INFO - Live View Count: 21
+2024-06-03 21:46:23,535 - INFO - Live View Count: 17
+2024-06-03 21:46:53,464 - INFO - Live View Count: 17
+2024-06-03 21:47:16,711 - ERROR - Error retrieving view count: Message: 
+
+2024-06-03 21:47:53,430 - INFO - Live View Count: 7
+2024-06-03 21:48:31,427 - ERROR - Error retrieving view count: Message: 
+
+2024-06-03 21:49:03,919 - ERROR - Error retrieving view count: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1584:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-06-03 21:49:05,992 - ERROR - Error: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-06-03 21:49:57,303 - ERROR - Error retrieving view count: Message: 
+
+2024-06-03 21:49:59,737 - ERROR - Error: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:828:39
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-06-03 21:52:17,945 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 21:52:34,767 - ERROR - Error: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-06-03 22:01:24,874 - INFO - Live View Count: 1
+2024-06-03 22:01:39,691 - INFO - Live View Count: 1
+2024-06-03 22:01:47,100 - ERROR - Error: Message: Failed to decode response from marionette
+
+2024-06-03 22:05:11,188 - INFO - Live View Count: 3
+2024-06-03 22:05:25,190 - INFO - Live View Count: 3
+2024-06-03 22:06:15,786 - ERROR - Error: Message: Unable to locate window: 564c2836-6e99-48d6-9910-d7525cb2bb20
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+GeckoDriver.prototype.switchToWindow@chrome://remote/content/marionette/driver.sys.mjs:1239:11
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-06-03 22:06:33,787 - INFO - Live View Count: 2
+2024-06-03 22:06:56,632 - ERROR - Error retrieving view count: Message: 
+
+2024-06-03 22:09:53,592 - INFO - Live View Count: 8
+2024-06-03 22:12:52,951 - INFO - Live View Count: 21
+2024-06-03 22:13:21,234 - INFO - Live View Count: 21
+2024-06-03 22:13:37,346 - INFO - Live View Count: 23
+2024-06-03 22:16:52,441 - INFO - Live View Count: 6
+2024-06-03 22:17:16,343 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8B820490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4933f8a-9e33-4def-937f-dddf4d485e70/url
+2024-06-03 22:17:20,349 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8B820250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4933f8a-9e33-4def-937f-dddf4d485e70/url
+2024-06-03 22:17:24,357 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8B8205E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4933f8a-9e33-4def-937f-dddf4d485e70/url
+2024-06-03 22:17:28,361 - ERROR - Error: HTTPConnectionPool(host='localhost', port=49675): Max retries exceeded with url: /session/c4933f8a-9e33-4def-937f-dddf4d485e70/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8B820730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-06-03 22:17:42,963 - INFO - Live View Count: 3
+2024-06-03 22:17:54,364 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016C78A20460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4bde5f44-5c54-466a-a3b5-983fae8c1d65/url
+2024-06-03 22:17:58,368 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016C78A200D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4bde5f44-5c54-466a-a3b5-983fae8c1d65/url
+2024-06-03 22:18:02,376 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016C78A205B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4bde5f44-5c54-466a-a3b5-983fae8c1d65/url
+2024-06-03 22:18:06,388 - ERROR - Error: HTTPConnectionPool(host='localhost', port=49820): Max retries exceeded with url: /session/4bde5f44-5c54-466a-a3b5-983fae8c1d65/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016C78A20700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-06-03 22:18:22,375 - INFO - Live View Count: 3
+2024-06-03 22:18:32,947 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023772220460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/604d43d3-c15c-4294-9f9c-3c92ddba8dfd/url
+2024-06-03 22:18:36,958 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237722201C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/604d43d3-c15c-4294-9f9c-3c92ddba8dfd/url
+2024-06-03 22:18:40,964 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237722205B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/604d43d3-c15c-4294-9f9c-3c92ddba8dfd/url
+2024-06-03 22:18:44,968 - ERROR - Error: HTTPConnectionPool(host='localhost', port=49923): Max retries exceeded with url: /session/604d43d3-c15c-4294-9f9c-3c92ddba8dfd/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023772220700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-06-03 22:18:59,375 - INFO - Live View Count: 3
+2024-06-03 22:19:09,859 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000230DAF20460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b455a3e5-8ed0-4076-8959-ee9303d0ff29/url
+2024-06-03 22:19:13,865 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000230DAF200D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b455a3e5-8ed0-4076-8959-ee9303d0ff29/url
+2024-06-03 22:19:17,877 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000230DAF205B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b455a3e5-8ed0-4076-8959-ee9303d0ff29/url
+2024-06-03 22:19:21,889 - ERROR - Error: HTTPConnectionPool(host='localhost', port=50086): Max retries exceeded with url: /session/b455a3e5-8ed0-4076-8959-ee9303d0ff29/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000230DAF20700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-06-03 22:20:15,889 - INFO - Live View Count: 6
+2024-06-03 22:20:22,472 - INFO - Live View Count: 6
+2024-06-03 22:21:24,746 - INFO - Live View Count: 3
+2024-06-03 22:22:28,802 - INFO - Live View Count: 3
+2024-06-03 22:23:31,521 - INFO - Live View Count: 6
+2024-06-03 22:24:33,812 - INFO - Live View Count: 2
+2024-06-03 22:25:36,575 - INFO - Live View Count: 1
+2024-06-03 22:26:39,388 - ERROR - Error: Message: Failed to decode response from marionette
+
+2024-06-03 22:26:52,836 - ERROR - Error: Message: Failed to decode response from marionette
+
