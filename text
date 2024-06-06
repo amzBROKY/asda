@@ -1,0 +1,43 @@
+from playwright.sync_api import sync_playwright
+
+def main():
+    with sync_playwright() as p:
+        chromium_profile_path = r'C:\Users\Amz\AppData\Local\ms-playwright\chromium-1117\profile'
+
+        # Launch the browser
+        browser = p.chromium.launch(headless=False)
+
+        # Create a new persistent context with the specified profile directory
+        context = browser.new_context(storage_state='persistent')
+
+        try:
+            # Open a new page
+            page = context.new_page()
+
+            # Navigate to the webpage
+            page.goto('https://greatonlinetools.com/youtube/earn/')
+
+            # Find the input field by ID and enter the channel URL
+            channel_input = page.wait_for_selector('#channel_link')
+            channel_input.fill('https://www.youtube.com/channel/UCcVP00S5qF8k5rY5m4cCFdA')
+
+            # Press the "Enter" key
+            page.keyboard.press('Enter')
+
+            # Wait for the "EARN CREDITS" button and click it
+            page.wait_for_selector('a:has-text("EARN CREDITS")').click()
+
+            # Wait for the action button and click it
+            action_button = page.wait_for_selector('button[id="actionbtn"]')
+            action_button.scroll_into_view()
+            action_button.click()
+
+            # Add a delay to observe the result
+            page.wait_for_timeout(5000)
+
+        finally:
+            # Close the browser
+            browser.close()
+
+if __name__ == "__main__":
+    main()

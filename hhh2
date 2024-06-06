@@ -1,0 +1,63 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+import time
+
+# Path to your msedgedriver executable
+msedgedriver_path = r'C:\Users\Amz\Desktop\msedgedriver.exe'
+
+# Path to the directory where you want to store the Edge profile
+edge_profile_path = r'C:\Users\Amz\AppData\Local\Microsoft\Edge\User Data'
+
+# Configure Edge options with the specified profile directory
+edge_options = Options()
+edge_options.use_chromium = True
+edge_options.add_argument("--start-maximized")
+edge_options.add_argument(f"--user-data-dir={edge_profile_path}")
+
+# Initialize WebDriver
+service = Service(msedgedriver_path)
+driver = webdriver.Edge(service=service, options=edge_options)
+
+try:
+    # Open the first webpage
+    driver.get('https://greatonlinetools.com/youtube/earn/')
+
+    # Find the input field by ID and enter the channel URL
+    channel_input = WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.ID, 'channel_link')))
+    channel_input.send_keys('https://www.youtube.com/channel/UCcVP00S5qF8k5rY5m4cCFdA')
+    
+    # Press the "Enter" key
+    channel_input.send_keys(Keys.ENTER)
+
+    # Wait until the "EARN CREDITS" button is clickable and click it
+    WebDriverWait(driver, 50).until(EC.element_to_be_clickable((By.XPATH, "//a[text()='EARN CREDITS']"))).click()
+
+    # Wait until either the "Subscribe" or "Like" button is clickable
+    action_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//button[text()='Subscribe'] | //button[text()='Like']"))
+    )
+
+    # Print the button text for debugging
+    print("Button text:", action_button.text)
+
+    # Print if the button is visible for debugging
+    print("Is button visible?", action_button.is_displayed())
+
+    # Click the button
+    action_button.click()
+
+    # Add a delay to observe the result
+    time.sleep(20)
+
+except Exception as e:
+    print("An error occurred:", e)
+
+finally:
+    # Close the browser
+    driver.quit()

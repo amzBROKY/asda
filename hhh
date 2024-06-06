@@ -1,0 +1,55 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+import time
+
+# Path to your WebDriver executable
+chromedriver_path = r'C:\Users\Amz\.cache\selenium\chromedriver\win64\125.0.6422.141\chromedriver.exe'  # Update to chromedriver.exe
+
+# Specify the user data directory associated with your Google account
+user_data_dir = r'C:\Users\Amz\AppData\Local\Google\Chrome\User Data'  # Update to your Chrome user data directory
+
+# Configure Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--start-maximized")
+chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
+
+# Initialize WebDriver
+service = Service(chromedriver_path)
+driver = webdriver.Chrome(service=service, options=chrome_options)
+
+try:
+    # Open the first webpage
+    driver.get('https://greatonlinetools.com/youtube/earn/')
+
+    # Find the input field by ID and enter the channel URL
+    channel_input = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'channel_link')))
+    channel_input.send_keys('https://www.youtube.com/channel/UCcVP00S5qF8k5rY5m4cCFdA')
+    
+    # Press the "Enter" key
+    channel_input.send_keys(Keys.ENTER)
+
+    # Wait until the "EARN CREDITS" button is clickable and click it
+    WebDriverWait(driver, 50).until(EC.element_to_be_clickable((By.XPATH, "//a[text()='EARN CREDITS']"))).click()
+
+    # Wait until either the "Subscribe" or "Like" button is clickable
+    action_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@id='actionbtn']")))
+
+    # Scroll to the element to ensure it's in view
+    actions = ActionChains(driver)
+    actions.move_to_element(action_button).perform()
+
+    # Click the button
+    action_button.click()
+
+    # Add a delay to observe the result
+    time.sleep(5)
+
+finally:
+    # Close the browser
+    driver.quit()
